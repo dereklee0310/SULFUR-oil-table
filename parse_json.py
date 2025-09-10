@@ -9,6 +9,8 @@ import pandas as pd
 from openpyxl.utils import get_column_letter
 from openpyxl.worksheet.dimensions import ColumnDimension, DimensionHolder
 
+from utils.utils import setup_logging
+
 JSON_DIR = "./output"
 EXCEL_PATH = "./oils.xlsx"
 
@@ -49,10 +51,7 @@ NEW_COLUMNS = {
     "MISC": "MISC",  # Not a built-in one, for sheet name conversion
 }
 
-format = "%(asctime)s - %(levelname)s - %(name)s - %(message)s"
-datefmt = "%Y-%m-%d %H:%M:%S"
-logging.basicConfig(level=logging.INFO, force=True, format=format, datefmt=datefmt)
-logger = logging.getLogger(__name__)
+logger = setup_logging()
 
 
 def get_oil_filenames():
@@ -66,7 +65,7 @@ def get_oil_info(filename):
 
     enchantment_id = data["appliesEnchantment"]["m_PathID"]
     enchantment_info = get_enchantment_info(id_to_filename[str(enchantment_id)])
-    logger.info("Parsing %s", data["displayName"])
+    logger.debug("Parsing %s", data["displayName"])
     info = {
         "displayName": data["displayName"],
         "includedInDemo": "Yes" if data["includedInDemo"] == 1 else "",
@@ -127,6 +126,7 @@ def get_oil_types(info):
 
 
 if __name__ == "__main__":
+    logger.info("Parsing json files in %s", JSON_DIR)
     oil_filenames = get_oil_filenames()
 
     with open("id_to_filename.json", "r", encoding="utf8") as f:

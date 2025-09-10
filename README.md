@@ -7,10 +7,13 @@ A simple Python script that parses oil data from a Unity .bundle file and export
 ## Getting Started
 
 ### Dependencies
-- Python 3.13.2
-- Install dependencies with:
+#### pip
 ```
 pip install -r requirements.txt
+```
+#### uv
+```
+uv sync
 ```
 
 ### Executing program
@@ -18,7 +21,7 @@ pip install -r requirements.txt
 
 Copy the following file into this project directory:
 ```
-gamedefinitions_assets_all_d7975836da373a5d7cd8a8695aeb3d27.bundle
+gamedefinitions_assets_all_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.bundle
 ```
 You can find it at:
 ```
@@ -30,18 +33,18 @@ And the project directory should looks like this now:
 ├── LICENSE
 ├── README.md
 ├── demo.png
-├── gamedefinitions_assets_all_d7975836da373a5d7cd8a8695aeb3d27.bundle
+├── gamedefinitions_assets_all_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.bundle
 ├── oils.xlsx
 ├── parse_bundle.py
 ├── parse_json.py
 └── requirements.txt
 ```
 
-2. Extract Oil data to JSON
+1. Extract Oil data to JSON
 ```
 python parse_bundle.py
 ```
-3. Convert JSON to Excel
+2. Convert JSON to Excel
 ```
 python parse_json.py
 ```

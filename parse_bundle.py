@@ -3,15 +3,16 @@ Extract MonoBehaviour data from Unity bundle file.
 """
 
 import json
-import logging
+import sys
 import re
 from collections import defaultdict
 from pathlib import Path
 from pprint import pprint
 
+from utils.utils import setup_logging
+
 import UnityPy
 
-SRC = "./gamedefinitions_assets_all_d7975836da373a5d7cd8a8695aeb3d27.bundle"
 JSON_DIR = "./output"
 
 # top 18: k = sorted(name_counts.items(), key=lambda x: x[1], reverse=True)[:18]
@@ -38,10 +39,7 @@ BLACKLIST = set(
     ]
 )
 
-format = "%(asctime)s - %(levelname)s - %(name)s - %(message)s"
-datefmt = "%Y-%m-%d %H:%M:%S"
-logging.basicConfig(level=logging.INFO, force=True, format=format, datefmt=datefmt)
-logger = logging.getLogger(__name__)
+logger = setup_logging()
 
 
 def check_label_or_itemDescriptionName(tree):
@@ -60,7 +58,15 @@ if __name__ == "__main__":
     folder = Path(JSON_DIR)
     folder.mkdir(parents=True, exist_ok=True)
 
-    env = UnityPy.load(SRC)
+    bundles = list(str(x) for x in Path("./").glob("*.bundle"))
+    if not bundles:
+        logger.critical(".bundle file not found, please put it in the same directory")
+        sys.exit()
+    if len(bundles) > 1:
+        logger.warning("Found multiple .bundle files, will use the first one it found")
+    logger.info("Parsing %s", bundles[0])
+
+    env = UnityPy.load(bundles[0])
     for obj in env.objects:
         if obj.type.name == "MonoBehaviour" and obj.serialized_type.node:
             tree = obj.read_typetree()
@@ -68,7 +74,7 @@ if __name__ == "__main__":
             if tree["m_Name"] in BLACKLIST:
                 logger.debug("Ignoring %s", tree["m_Name"])
                 continue
-            logger.info("Parsing %s", tree["m_Name"])
+            logger.debug("Parsing %s", tree["m_Name"])
             # It has two name: label and itemDescriptionName,
             # Use the first one becauese some itemDescriptionName are missing,
             # But we need to rename this name later because it's ugly.
