@@ -39,8 +39,7 @@ BLACKLIST = set(
     ]
 )
 
-logger = setup_logging()
-
+logger = setup_logging("INFO")
 
 def check_label_or_itemDescriptionName(tree):
     if "label" in tree and "itemDescriptionName" not in tree:
@@ -75,6 +74,10 @@ if __name__ == "__main__":
                 logger.debug("Ignoring %s", tree["m_Name"])
                 continue
             logger.debug("Parsing %s", tree["m_Name"])
+
+            if tree["m_Name"].startswith("Enchantment_") and not tree["m_Name"].endswith("Oil"):
+                logger.info("Parsing %s", tree["m_Name"])
+
             # It has two name: label and itemDescriptionName,
             # Use the first one becauese some itemDescriptionName are missing,
             # But we need to rename this name later because it's ugly.

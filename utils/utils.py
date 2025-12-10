@@ -2,7 +2,7 @@ import logging
 import logging.config
 import rich.logging
 
-def setup_logging() -> logging.Logger:
+def setup_logging(level="INFO") -> logging.Logger:
     logging_config = {
         "version": 1,
         "disable_existing_loggers": False,
@@ -15,14 +15,14 @@ def setup_logging() -> logging.Logger:
         },
         "handlers": {
             "stdout": {
-                "level": "INFO",
+                "level": level,
                 "formatter": "simple",
                 "()": "rich.logging.RichHandler",
                 "rich_tracebacks": True,
                 "show_time": False
             },
         },
-        "loggers": {"root": {"level": "INFO", "handlers": ["stdout"]}},
+        "loggers": {"root": {"level": level, "handlers": ["stdout"]}},
     }
     logging.config.dictConfig(config=logging_config)
     return logging.getLogger(__name__)
