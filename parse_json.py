@@ -1,7 +1,8 @@
 import json
-import logging
+import re
 from pathlib import Path
 from pprint import pprint
+import sys
 from collections import defaultdict
 
 import openpyxl
@@ -9,15 +10,16 @@ import pandas as pd
 from openpyxl.utils import get_column_letter
 from openpyxl.worksheet.dimensions import ColumnDimension, DimensionHolder
 
-from utils.utils import setup_logging
+from utils.utils import setup_logger
 
-JSON_DIR = "./output"
-EXCEL_PATH = "./oils.xlsx"
+DATA_PATH = "./data.json"
+OIL_NAME_REGEX = re.compile(r"Enchantment_(.*)Oil")
+EXCEL_OUTPUT_PATH = "./oils.xlsx"
 
-NEW_COLUMNS = {
+COLUMN_NAME_MAPPING = {
     "displayName": "Name",
-    "includedInDemo": "Demo",
-    "includedInEarlyAccess": "Early Access",
+    # "includedInDemo": "Demo",
+    # "includedInEarlyAccess": "Early Access",
     "basePrice": "Base Price",
     "CostsDurability": "Costs Durability",
     "Kick": "Recoil",
@@ -51,53 +53,42 @@ NEW_COLUMNS = {
     "MISC": "MISC",  # Not a built-in one, for sheet name conversion
 }
 
-logger = setup_logging()
+logger = setup_logger("INFO")
 
 
-def get_oil_filenames():
-    return [file for file in Path(JSON_DIR).glob("Enchantment_*Oil*.json")]
-
-
-def get_oil_info(filename):
+def build_oil_object(data, oil_id):
     # Enchantment_*Oil
-    with open(filename, "r", encoding="utf8") as f:
-        data = json.load(f)
-
-    enchantment_id = data["appliesEnchantment"]["m_PathID"]
-    enchantment_info = get_enchantment_info(id_to_filename[str(enchantment_id)])
-    logger.debug("Parsing %s", data["displayName"])
-    info = {
-        "displayName": data["displayName"],
-        "includedInDemo": "Yes" if data["includedInDemo"] == 1 else "",
-        "includedInEarlyAccess": "Yes" if data["includedInEarlyAccess"] == 1 else "",
-        "basePrice": data["basePrice"],
-        **enchantment_info,
+    oil_data = data[oil_id]
+    logger.info("Parsing %s", oil_data["displayName"])
+    result = {
+        "displayName": oil_data["displayName"],
+        # "includedInDemo": "Yes" if oil_data["includedInDemo"] == 1 else "",
+        # "includedInEarlyAccess": "Yes" if oil_data["includedInEarlyAccess"] == 1 else "",
+        "basePrice": oil_data["basePrice"],
+        **get_oil_definition(data, str(oil_data["appliesEnchantment"]["m_PathID"])),
     }
-    return info
+    return result
 
 
-def get_enchantment_info(filename):
+def get_oil_definition(data, oil_definition_id):
     # EnchantmentDefinition_*Oil
-    with open(filename, "r", encoding="utf8") as f:
-        data = json.load(f)
+    definition_data = data[oil_definition_id]
     return {
-        "CostsDurability": "Yes" if data["CostsDurability"] == 1 else "",
-        # "IsElemental": data["IsElemental"],
-        **get_modifiers_info(data["modifiersApplied"]),
+        "CostsDurability": definition_data["CostsDurability"],
+        **get_modifiers_definition(data, definition_data["modifiersApplied"]),
     }
 
 
-def get_modifiers_info(modifiers):
+def get_modifiers_definition(data, modifiers):
     results = {}
     for modifier in modifiers:
-        name = id_to_item_name[str(modifier["attribute"]["m_PathID"])]
+        # itemDescriptionName is not reliable, use label instead
+        name = data[str(modifier["attribute"]["m_PathID"])]["label"]
         # 100: boolean/add, 200: multiplier, 300: bullet size
         mod_type = modifier["modType"]
         value = modifier["value"]
         if name == "Damage" and mod_type == 200:
             results["Damage%"] = value
-        elif name in ("No money drops", "No organs drop", "Enchantment Random Oil"):
-            results[name] = "Yes" if value == 1 else ""
         else:
             results[name] = value
     return results
@@ -124,17 +115,16 @@ def get_oil_types(info):
     types = [key for key, cond in checks if cond(info.get(key, 0))]
     return types if types else ["MISC"]
 
+def parse_json():
+    logger.info("Parsing json file: %s", DATA_PATH)
+    try:
+        with open(DATA_PATH, "r", encoding="utf8") as f:
+            data = json.load(f)
+    except FileNotFoundError:
+        logger.critical("%s not found! Please parse the game bundles first.")
+        sys.exit()
 
-if __name__ == "__main__":
-    logger.info("Parsing json files in %s", JSON_DIR)
-    oil_filenames = get_oil_filenames()
-
-    with open("id_to_filename.json", "r", encoding="utf8") as f:
-        id_to_filename = json.load(f)
-    with open("id_to_item_name.json", "r", encoding="utf8") as f:
-        id_to_item_name = json.load(f)
-
-    oil_infos = [get_oil_info(filename) for filename in oil_filenames]
+    oil_infos = [build_oil_object(data, oil_id) for oil_id in data["oil_ids"]]
 
     oil_groups = defaultdict(list)
     for oil_info in oil_infos:
@@ -144,27 +134,31 @@ if __name__ == "__main__":
     # Beautify
     with pd.ExcelWriter("oils.xlsx", engine="openpyxl") as writer:
         df = pd.DataFrame(oil_infos)
-        df = df.rename(columns=NEW_COLUMNS)
+        df = df.rename(columns=COLUMN_NAME_MAPPING)
         df = df.map(
-            lambda x: f"{x:.2f}" if isinstance(x, float) and not pd.isna(x) else x
+            lambda x: float(f"{x:.2f}") if isinstance(x, float) and not pd.isna(x) else x
         )
         df.to_excel(writer, sheet_name="Comparison Table", index=False)
         for group_name, oil_infos in oil_groups.items():
             df = pd.DataFrame(oil_infos)
-            df = df.rename(columns=NEW_COLUMNS)
+            df = df.rename(columns=COLUMN_NAME_MAPPING)
             df = df.map(
-                lambda x: f"{x:.2f}" if isinstance(x, float) and not pd.isna(x) else x
+                lambda x: float(f"{x:.2f}") if isinstance(x, float) and not pd.isna(x) else x
             )
-            df.to_excel(writer, sheet_name=NEW_COLUMNS[group_name], index=False)
+            df.to_excel(writer, sheet_name=COLUMN_NAME_MAPPING[group_name], index=False)
 
     # Adjust width
-    wb = openpyxl.load_workbook(EXCEL_PATH)
+    wb = openpyxl.load_workbook(EXCEL_OUTPUT_PATH)
     for worksheet in wb.sheetnames:
         ws = wb[worksheet]
         dim_holder = DimensionHolder(worksheet=ws)
         for col in range(ws.min_column, ws.max_column + 1):
             dim_holder[get_column_letter(col)] = ColumnDimension(
-                ws, min=col, max=col, width=10
+                ws, min=col, max=col, width=20
             )
         ws.column_dimensions = dim_holder
-    wb.save(EXCEL_PATH)
+    wb.save(EXCEL_OUTPUT_PATH)
+
+
+if __name__ == "__main__":
+    parse_json()

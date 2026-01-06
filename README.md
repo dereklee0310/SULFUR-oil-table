@@ -1,24 +1,17 @@
 # SULFUR Oil Table
 
-A simple Python script that parses oil data from a Unity .bundle file and exports it to an Excel worksheet.
+A simple script that parses SULFUR oil data from a .bundle file and exports it to an Excel worksheet.
 
-![Demo](demo.png)
+![Demo](examples/demo.png)
 
 ## Getting Started
 
 ### Dependencies
-#### pip
-```
-pip install -r requirements.txt
-```
-#### uv
 ```
 uv sync
 ```
 
 ### Executing program
-1. Locate Game Definitions Bundle  
-
 Copy the following file into this project directory:
 ```
 gamedefinitions_assets_all_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.bundle
@@ -32,21 +25,24 @@ And the project directory should looks like this now:
 .
 ├── LICENSE
 ├── README.md
-├── demo.png
+├── examples
 ├── gamedefinitions_assets_all_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.bundle
 ├── oils.xlsx
 ├── parse_bundle.py
 ├── parse_json.py
-└── requirements.txt
+├── pyproject.toml
+├── requirements.txt
+├── utils
+└── uv.lock
 ```
 
-1. Extract Oil data to JSON
+1. Extract data from .bundle and dump into `data.json`
 ```
-python parse_bundle.py
+uv run parse_bundle.py
 ```
-2. Convert JSON to Excel
+2. Parse `data.json`
 ```
-python parse_json.py
+uv run parse_json.py
 ```
 
 ## Acknowledgments
