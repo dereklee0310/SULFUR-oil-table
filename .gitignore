@@ -1,5 +1,6 @@
-output/
 *.bundle
-sprites
+assets
 tmp
+*.xlsx
+*.json
 __pycache__/

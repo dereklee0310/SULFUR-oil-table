@@ -1,7 +1,7 @@
+import argparse
 import logging
 import logging.config
 
-import argparse
 import rich_argparse
 
 
@@ -54,7 +54,7 @@ def setup_logger(logging_level: str) -> logging.Logger:
 
 def parse_bundle_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Extract MonoBehaviour data from gamedefinitions_assets...",
+        description="Extract oil & recipe data from gamedefinitions_assets...",
         formatter_class=Formatter,
     )
     parser.add_argument(
@@ -69,7 +69,7 @@ def parse_bundle_args() -> argparse.Namespace:
 
 def parse_json_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Parse ./tmp/data.json and dump result into oils.xlsx.",
+        description="Parse ./tmp/data.json to generate json and spreadsheet.",
         formatter_class=Formatter,
     )
     parser.add_argument(

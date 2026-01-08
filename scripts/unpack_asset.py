@@ -3,15 +3,15 @@ Extract Sprites & Texture2D from spritesitems_assets_all_xxxxxxxxxxxxxxxxxxxxxxx
 """
 
 import json
-import sys
 import re
+import sys
 from pathlib import Path
-
-from utils.utils import setup_logger, parse_asset_args
 
 import UnityPy
 
-OUTPUT_DIR = Path("./sprites")
+from utils.utils import parse_asset_args, setup_logger
+
+OUTPUT_DIR = Path("./assets")
 # Some items have incorrect m_Name that matches with this regex, don't want to touch this shit now ;)
 OIL_NAME_REGEX = re.compile(r"Enchantment_(.*)Oil")
 

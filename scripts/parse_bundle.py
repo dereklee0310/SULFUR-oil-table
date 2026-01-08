@@ -1,22 +1,24 @@
 """
-Extract MonoBehaviour data from gamedefinitions_assets_all_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.bundle.
+Extract oil & recipe data from gamedefinitions_assets_all_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.bundle.
 """
 
 import json
-import sys
 import re
+import sys
 from pathlib import Path
 
-from utils.utils import setup_logger, parse_bundle_args
-
 import UnityPy
+
+from utils.utils import parse_bundle_args, setup_logger
 
 OUTPUT_DIR = Path("./tmp")
 # Some items have incorrect m_Name that matches with this regex, don't want to touch this shit now ;)
 OIL_NAME_REGEX = re.compile(r"Enchantment_(.*)Oil")
+RECIPE_NAME_REGEX = re.compile(r"Recipe_(.*)")
 
 args = parse_bundle_args()
 logger = setup_logger(args.logging_level)
+
 
 def get_bundle():
     bundles = list(str(x) for x in Path("./").glob("gamedefinitions*.bundle"))
@@ -30,7 +32,7 @@ def get_bundle():
 
 
 def parse_bundle():
-    id_table = {"oil_ids" : []} # Record oil id on the fly
+    id_table = {"oil_ids": [], "recipe_ids": []}  # Record oil & recipe id on the fly
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
     env = UnityPy.load(get_bundle())
@@ -43,16 +45,21 @@ def parse_bundle():
             logger.debug("Parsing '%s'", item_name)
 
             # If the object has a displayName, it's mostly likely a pickable item, card, or achievement
-            # Print oil only, but we need to dump all the json files including EnchantmentDefinition, Multipler, etc.
+            # But we also need to dump all the json files including EnchantmentDefinition, Multipler, etc.
             if OIL_NAME_REGEX.match(item_name):
                 cnt += 1
-                logger.info(f"Found oil {cnt:>3}: '%s'", item_name)
+                logger.info(f"Found    oil {cnt:>3}: '%s'", item_name)
                 id_table["oil_ids"].append(item_id)
+            elif RECIPE_NAME_REGEX.match(item_name):
+                cnt += 1
+                logger.info(f"Found recipe {cnt:>3}: '%s'", item_name)
+                id_table["recipe_ids"].append(item_id)
 
             id_table[item_id] = tree
 
     with open(OUTPUT_DIR / "data.json", "w", encoding="utf8") as f:
         json.dump(id_table, f, ensure_ascii=False, indent=4)
+
 
 if __name__ == "__main__":
     parse_bundle()

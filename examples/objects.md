@@ -179,7 +179,7 @@
         "m_FileID": 0,
         "m_PathID": 0
     },
-    "projectileEffect": {  // for enchantments that deal elemental damage
+    "projectileEffect": { // for enchantments that deal elemental damage
         "m_FileID": 0,
         "m_PathID": 0
     },
@@ -205,5 +205,64 @@
         "m_FileID": 0,
         "m_PathID": 0
     }
+}
+```
+
+## Recipe_Mudcake_1 1
+```json
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 1,
+        "m_PathID": 3561183746538219434
+    },
+    "m_Name": "Recipe_Mudcake_1 1", // Recipe name
+    "createsItem": {
+        "m_FileID": 0,
+        "m_PathID": -7885760137349746736 // Link to item it creates
+    },
+    "quantityCreated": 3, // Number of item it creates
+    "itemsNeeded": [
+        {
+            "item": {
+                "m_FileID": 0,
+                "m_PathID": -82282651914463174 // Link to required item
+            },
+            "quantity": 1 // Required quantity
+        },
+        {
+            "item": {
+                "m_FileID": 0,
+                "m_PathID": 1452232495277735399
+            },
+            "quantity": 1
+        },
+        {
+            "item": {
+                "m_FileID": 0,
+                "m_PathID": -8199466475927202420
+            },
+            "quantity": 1
+        },
+        {
+            "item": {
+                "m_FileID": 0,
+                "m_PathID": 8296372714667799805
+            },
+            "quantity": 1
+        },
+        {
+            "item": {
+                "m_FileID": 0,
+                "m_PathID": 2858632851210039811
+            },
+            "quantity": 1
+        }
+    ],
+    "canBeCrafted": 1 // All 1, not sure what it does
 }
 ```
