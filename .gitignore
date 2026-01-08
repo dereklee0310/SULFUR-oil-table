@@ -1,4 +1,5 @@
 output/
-*.json
 *.bundle
+sprites
+tmp
 __pycache__/

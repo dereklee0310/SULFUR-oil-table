@@ -1,5 +1,5 @@
 """
-Extract MonoBehaviour data from Unity bundle file.
+Extract MonoBehaviour data from gamedefinitions_assets_all_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.bundle.
 """
 
 import json
@@ -7,19 +7,19 @@ import sys
 import re
 from pathlib import Path
 
-from utils.utils import setup_logger, parse_args
+from utils.utils import setup_logger, parse_bundle_args
 
 import UnityPy
 
-OUTPUT_DIR = "./"
+OUTPUT_DIR = Path("./tmp")
 # Some items have incorrect m_Name that matches with this regex, don't want to touch this shit now ;)
 OIL_NAME_REGEX = re.compile(r"Enchantment_(.*)Oil")
 
-args = parse_args()
+args = parse_bundle_args()
 logger = setup_logger(args.logging_level)
 
 def get_bundle():
-    bundles = list(str(x) for x in Path("./").glob("*.bundle"))
+    bundles = list(str(x) for x in Path("./").glob("gamedefinitions*.bundle"))
     if not bundles:
         logger.critical(".bundle file not found, please put it in the same directory")
         sys.exit()
@@ -31,8 +31,7 @@ def get_bundle():
 
 def parse_bundle():
     id_table = {"oil_ids" : []} # Record oil id on the fly
-    output_dir = Path(OUTPUT_DIR)
-    output_dir.mkdir(parents=True, exist_ok=True)
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
     env = UnityPy.load(get_bundle())
     cnt = 0
@@ -52,7 +51,7 @@ def parse_bundle():
 
             id_table[item_id] = tree
 
-    with open("data.json", "w", encoding="utf8") as f:
+    with open(OUTPUT_DIR / "data.json", "w", encoding="utf8") as f:
         json.dump(id_table, f, ensure_ascii=False, indent=4)
 
 if __name__ == "__main__":

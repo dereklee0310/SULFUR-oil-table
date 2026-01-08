@@ -1,21 +1,20 @@
-# SULFUR Oil Table
+# SULFUR Toolkit
+A simple script to generate SULFUR oil table and unpack assets from .bundle files.
 
-A simple script that parses SULFUR oil data from a .bundle file and exports it to an Excel worksheet.
+![oil_table](examples/oil_table.png)
 
-![Demo](examples/demo.png)
-
-## Getting Started
-
-### Dependencies
+## Dependencies
 ```
 uv sync
 ```
 
-### Executing program
+## Executing program
+### Oil Table
 Copy the following file into this project directory:
 ```
 gamedefinitions_assets_all_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.bundle
 ```
+
 You can find it at:
 ```
 C:\Program Files (x86)\Steam\steamapps\common\SULFUR\Sulfur_Data\StreamingAssets\aa\StandaloneWindows64\
@@ -43,6 +42,16 @@ uv run parse_bundle.py
 2. Parse `data.json`
 ```
 uv run parse_json.py
+```
+
+### Assets
+Copy the following file into this project directory:
+```
+spritesitems_assets_all_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.bundle
+```
+Then run the script below:
+```
+uv run unpack_asset.py
 ```
 
 ## Acknowledgments

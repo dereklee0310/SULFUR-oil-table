@@ -29,7 +29,7 @@ def setup_logger(logging_level: str) -> logging.Logger:
         },
         "handlers": {
             "stdout": {
-                "level": "INFO",
+                "level": logging_level,
                 "formatter": "iso-8601-simple",
                 "()": "rich.logging.RichHandler",
                 "rich_tracebacks": True,
@@ -52,9 +52,9 @@ def setup_logger(logging_level: str) -> logging.Logger:
     return logging.getLogger(__name__)
 
 
-def parse_args() -> argparse.Namespace:
+def parse_bundle_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Default Parser.",
+        description="Extract MonoBehaviour data from gamedefinitions_assets...",
         formatter_class=Formatter,
     )
     parser.add_argument(
@@ -67,9 +67,52 @@ def parse_args() -> argparse.Namespace:
     )
     return parser.parse_args()
 
+def parse_json_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description="Parse ./tmp/data.json and dump result into oils.xlsx.",
+        formatter_class=Formatter,
+    )
+    parser.add_argument(
+        "-l",
+        "--log",
+        dest="logging_level",
+        default="INFO",
+        choices=["DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL"],
+        help="Set the logging level, (default: %(default)s)",
+    )
+    return parser.parse_args()
+
+def parse_asset_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description="Extract Sprites & Texture2D from spritesitems_assets...",
+        formatter_class=Formatter,
+    )
+    parser.add_argument(
+        "-l",
+        "--log",
+        dest="logging_level",
+        default="INFO",
+        choices=["DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL"],
+        help="Set the logging level, (default: %(default)s)",
+    )
+    type_group = parser.add_mutually_exclusive_group()
+    type_group.add_argument(
+        "-s",
+        "--sprite",
+        action="store_true",
+        help="Unpack Sprite assets only",
+    )
+    type_group.add_argument(
+        "-t",
+        "--texture",
+        action="store_true",
+        help="Unpack Texture2D assets only",
+    )
+    return parser.parse_args()
+
 
 def main():
-    args = parse_args()
+    args = parse_bundle_args()
     print(args)
     logger = setup_logger(args.logging_level)
     logger.info("Hi ;)")

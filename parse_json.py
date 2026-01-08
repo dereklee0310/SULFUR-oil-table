@@ -1,3 +1,7 @@
+"""
+Parse ./tmp/data.json and dump result into oils.xlsx.
+"""
+
 import json
 import re
 from pathlib import Path
@@ -10,16 +14,16 @@ import pandas as pd
 from openpyxl.utils import get_column_letter
 from openpyxl.worksheet.dimensions import ColumnDimension, DimensionHolder
 
-from utils.utils import setup_logger
+from utils.utils import setup_logger, parse_json_args
 
-DATA_PATH = "./data.json"
+DATA_PATH = "./tmp/data.json"
 OIL_NAME_REGEX = re.compile(r"Enchantment_(.*)Oil")
 EXCEL_OUTPUT_PATH = "./oils.xlsx"
 
 COLUMN_NAME_MAPPING = {
     "displayName": "Name",
-    # "includedInDemo": "Demo",
-    # "includedInEarlyAccess": "Early Access",
+    "includedInDemo": "Demo",
+    "includedInEarlyAccess": "Early Access",
     "basePrice": "Base Price",
     "CostsDurability": "Costs Durability",
     "Kick": "Recoil",
@@ -53,17 +57,20 @@ COLUMN_NAME_MAPPING = {
     "MISC": "MISC",  # Not a built-in one, for sheet name conversion
 }
 
-logger = setup_logger("INFO")
-
+args = parse_json_args()
+logger = setup_logger(args.logging_level)
+cnt = 0
 
 def build_oil_object(data, oil_id):
     # Enchantment_*Oil
     oil_data = data[oil_id]
-    logger.info("Parsing %s", oil_data["displayName"])
+    global cnt
+    cnt += 1
+    logger.info(f"Parsing {cnt:>3} %s", oil_data["displayName"])
     result = {
         "displayName": oil_data["displayName"],
-        # "includedInDemo": "Yes" if oil_data["includedInDemo"] == 1 else "",
-        # "includedInEarlyAccess": "Yes" if oil_data["includedInEarlyAccess"] == 1 else "",
+        "includedInDemo": oil_data["includedInDemo"] ,
+        "includedInEarlyAccess": oil_data["includedInEarlyAccess"],
         "basePrice": oil_data["basePrice"],
         **get_oil_definition(data, str(oil_data["appliesEnchantment"]["m_PathID"])),
     }
