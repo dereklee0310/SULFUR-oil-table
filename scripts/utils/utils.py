@@ -67,6 +67,7 @@ def parse_bundle_args() -> argparse.Namespace:
     )
     return parser.parse_args()
 
+
 def parse_json_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="Parse ./tmp/data.json to generate json and spreadsheet.",
@@ -81,6 +82,7 @@ def parse_json_args() -> argparse.Namespace:
         help="Set the logging level, (default: %(default)s)",
     )
     return parser.parse_args()
+
 
 def parse_asset_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(

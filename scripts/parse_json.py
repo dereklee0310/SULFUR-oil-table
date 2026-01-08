@@ -11,7 +11,6 @@ import openpyxl
 import pandas as pd
 from openpyxl.utils import get_column_letter
 from openpyxl.worksheet.dimensions import ColumnDimension, DimensionHolder
-
 from utils.utils import parse_json_args, setup_logger
 
 DATA_PATH = "./tmp/data.json"

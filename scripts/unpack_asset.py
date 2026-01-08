@@ -8,7 +8,6 @@ import sys
 from pathlib import Path
 
 import UnityPy
-
 from utils.utils import parse_asset_args, setup_logger
 
 OUTPUT_DIR = Path("./assets")
