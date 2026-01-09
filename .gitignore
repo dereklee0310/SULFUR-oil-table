@@ -1,6 +1,6 @@
 *.bundle
 assets
 tmp
-*.xlsx
-*.json
+/*.xlsx
+/*.json
 __pycache__/

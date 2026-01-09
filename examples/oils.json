@@ -1,0 +1,6981 @@
+{
+    "all": [
+        {
+            "Name": "Black Friday Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 1,
+            "Max Durability": -0.33,
+            "Projectile Amount": 1.0,
+            "Damage%": -0.15
+        },
+        {
+            "Name": "Altruistic Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Spread": -0.3,
+            "Loot Chance Multiplier": -0.5
+        },
+        {
+            "Name": "Turbulence Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 600,
+            "Costs Durability": 1,
+            "Bullet Speed": 0.5,
+            "No Organs Drop": 1.0
+        },
+        {
+            "Name": "Double Fire Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "RPM": 0.5,
+            "Consume Extra Ammo Chance": 0.25
+        },
+        {
+            "Name": "Disposable Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Damage": 50.0,
+            "Max Durability": -0.75
+        },
+        {
+            "Name": "Gambler Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Crit Chance": 0.2,
+            "Damage%": -0.2
+        },
+        {
+            "Name": "Velocity Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 220,
+            "Costs Durability": 1,
+            "Bullet Speed": 0.3
+        },
+        {
+            "Name": "Last Drop Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 250,
+            "Costs Durability": 1,
+            "Ammo Consume Chance": -0.3,
+            "Max Durability": -0.25
+        },
+        {
+            "Name": "Cycle Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Spread": 1.0,
+            "Reload Speed": 0.25
+        },
+        {
+            "Name": "Puncher Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1200,
+            "Costs Durability": 1,
+            "Damage%": 0.3,
+            "Recoil": 1.5
+        },
+        {
+            "Name": "Shredder Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Damage%": -0.2,
+            "Projectile Amount": 1.0,
+            "Spread": 1.0,
+            "No Organs Drop": 1.0
+        },
+        {
+            "Name": "Sensible Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 0,
+            "Max Durability": 0.2,
+            "No Organs Drop": 1.0
+        },
+        {
+            "Name": "First Blood Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1200,
+            "Costs Durability": 1,
+            "Damage%": 0.3,
+            "Spread": 1.0
+        },
+        {
+            "Name": "Whos Counting Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Ammo Consume Chance": -0.25,
+            "Disables Aiming": 1.0
+        },
+        {
+            "Name": "Chonk Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 200,
+            "Costs Durability": 1,
+            "Bullet Size": 1.0,
+            "Spread": 0.3
+        },
+        {
+            "Name": "Blindfold Oil",
+            "Demo": 1,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Crit Chance": 0.15,
+            "Spread": 2.0
+        },
+        {
+            "Name": "Food Stamp Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 1,
+            "No Money Drops": 1.0,
+            "Ammo Consume Chance": -0.2
+        },
+        {
+            "Name": "Manifestation Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1100,
+            "Costs Durability": 1,
+            "Crit Chance": 0.25,
+            "Reload Speed": -0.5
+        },
+        {
+            "Name": "Trusty Old Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 750,
+            "Costs Durability": 0,
+            "Max Durability": 0.2,
+            "No Money Drops": 1.0
+        },
+        {
+            "Name": "Clump Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 175,
+            "Costs Durability": 1,
+            "Bullet Size": 1.0,
+            "Consume Extra Ammo Chance": 0.3
+        },
+        {
+            "Name": "Spitter Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "RPM": 0.35,
+            "Spread": 1.0
+        },
+        {
+            "Name": "Easy Plop Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 1,
+            "Recoil": -0.65,
+            "Bullet Drop": 5.0
+        },
+        {
+            "Name": "Slick Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1000,
+            "Costs Durability": 1,
+            "Spread": -0.3,
+            "Jump Power": -0.1
+        },
+        {
+            "Name": "Skip Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Bullet Bounces": 1.0,
+            "Loot Chance Multiplier": -0.25
+        },
+        {
+            "Name": "Do-over Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Ammo Consume Chance": -0.2,
+            "RPM": -0.25
+        },
+        {
+            "Name": "Tetris Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1200,
+            "Costs Durability": 1,
+            "Ammo Consume Chance": -0.3,
+            "Reload Speed": -0.6
+        },
+        {
+            "Name": "Over Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 400,
+            "Costs Durability": 1,
+            "Bullet Size": 1.0,
+            "Recoil": 0.3
+        },
+        {
+            "Name": "Hunter Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1100,
+            "Costs Durability": 1,
+            "Crit Chance": 0.15,
+            "Move Speed": -0.3
+        },
+        {
+            "Name": "Lazy Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Bullet Bounces": 1.0,
+            "Reload Speed": -0.1
+        },
+        {
+            "Name": "Recycle Oil",
+            "Demo": 1,
+            "Early Access": 1,
+            "Base Price": 1000,
+            "Costs Durability": 1,
+            "Ammo Consume Chance": -0.15
+        },
+        {
+            "Name": "Micro Wing Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 1,
+            "Bullet Speed": 0.8,
+            "Consume Extra Ammo Chance": 0.2
+        },
+        {
+            "Name": "Mosquito Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Ammo Consume Chance": -0.7,
+            "Damage%": -0.3,
+            "Bullet Speed": -0.3
+        },
+        {
+            "Name": "Hip Marksman Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Spread": -0.3,
+            "Disables Aiming": 1.0
+        },
+        {
+            "Name": "Elephant Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Projectile Amount": 2.0,
+            "Damage%": -0.25,
+            "Recoil": 0.1,
+            "Move Speed": -0.5,
+            "Bullet Drop": 10.0,
+            "Bullet Size": 200.0,
+            "Spread": 2.0
+        },
+        {
+            "Name": "Modern Technology Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 600,
+            "Costs Durability": 1,
+            "Recoil": -0.25,
+            "Consume Extra Ammo Chance": 0.1
+        },
+        {
+            "Name": "Main Discipline Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Loot Chance Multiplier": -0.5,
+            "Reload Speed": 0.3
+        },
+        {
+            "Name": "Bandit Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 600,
+            "Costs Durability": 1,
+            "Bullet Bounces": 1.0,
+            "No Money Drops": 1.0
+        },
+        {
+            "Name": "RicochetOil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Bullet Bounces": 3.0,
+            "Damage%": -0.1
+        },
+        {
+            "Name": "Saviour Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 900,
+            "Costs Durability": 1,
+            "Ammo Consume Chance": -0.4,
+            "Loot Chance Multiplier": -1.0
+        },
+        {
+            "Name": "Slow Punch Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Damage%": 0.5,
+            "Bullet Speed": -0.5
+        },
+        {
+            "Name": "Judgement Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Damage": 25.0,
+            "Move Speed": -0.15
+        },
+        {
+            "Name": "Carefree Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Ammo Consume Chance": -0.2,
+            "Spread": 1.0
+        },
+        {
+            "Name": "Rebound Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Bullet Bounces": 2.0,
+            "Damage": -15.0
+        },
+        {
+            "Name": "Pool Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1200,
+            "Costs Durability": 1,
+            "Bullet Bounces": 4.0,
+            "Move Speed": -0.3
+        },
+        {
+            "Name": "Seated Fit Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 0,
+            "Max Durability": 0.7,
+            "Bullet Drop": 10.0
+        },
+        {
+            "Name": "Speed Trade Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 400,
+            "Costs Durability": 1,
+            "Bullet Speed": -0.3,
+            "Reload Speed": 0.3
+        },
+        {
+            "Name": "Tandem Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Damage%": -0.15,
+            "Projectile Amount": 1.0
+        },
+        {
+            "Name": "Waster Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "RPM": 0.2,
+            "No Money Drops": 1.0
+        },
+        {
+            "Name": "Bowl Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Spread": -0.5,
+            "Bullet Speed": -0.2
+        },
+        {
+            "Name": "Too Much Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 900,
+            "Costs Durability": 1,
+            "Bullet Penetration": 1.0,
+            "No Organs Drop": 1.0
+        },
+        {
+            "Name": "Vegan Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Spread": -0.2,
+            "No Organs Drop": 1.0
+        },
+        {
+            "Name": "Brute Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Damage": 30.0,
+            "Spread": 0.7
+        },
+        {
+            "Name": "Compo Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1100,
+            "Costs Durability": 1,
+            "Reload Speed": 0.8,
+            "Move Speed": -0.6,
+            "Spread": -0.1,
+            "Recoil": -0.1
+        },
+        {
+            "Name": "Flop Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 400,
+            "Costs Durability": 1,
+            "Bullet Size": 0.5,
+            "Jump Power": -0.1
+        },
+        {
+            "Name": "Hip Blaster Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Damage%": 0.2,
+            "Disables Aiming": 1.0
+        },
+        {
+            "Name": "Zero Fucks Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "RPM": 0.5,
+            "Loot Chance Multiplier": -1.0
+        },
+        {
+            "Name": "Kinetic Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 350,
+            "Costs Durability": 1,
+            "Bullet Speed": 0.8,
+            "Bullet Drop": 20.0
+        },
+        {
+            "Name": "Frugal Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Damage": 25.0,
+            "Loot Chance Multiplier": -0.5
+        },
+        {
+            "Name": "Arkanoid Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1200,
+            "Costs Durability": 1,
+            "Bullet Bounces": 13.0,
+            "Bullet Speed": -0.8
+        },
+        {
+            "Name": "Less Recoil Oil",
+            "Demo": 1,
+            "Early Access": 1,
+            "Base Price": 1200,
+            "Costs Durability": 1,
+            "Recoil": -0.25
+        },
+        {
+            "Name": "Cartoon Oil",
+            "Demo": 1,
+            "Early Access": 1,
+            "Base Price": 1000,
+            "Costs Durability": 1,
+            "Bullet Bounces": 4.0,
+            "Recoil": 2.0
+        },
+        {
+            "Name": "Rigid System Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 0,
+            "Max Durability": 0.4,
+            "Consume Extra Ammo Chance": 0.2
+        },
+        {
+            "Name": "Peashooter Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1000,
+            "Costs Durability": 1,
+            "Recoil": -0.2,
+            "Bullet Size": -1.0
+        },
+        {
+            "Name": "Late Boom Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 150,
+            "Costs Durability": 1,
+            "Damage": 30.0,
+            "Bullet Speed": -0.3
+        },
+        {
+            "Name": "Shellman Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Spread": -0.3,
+            "Reload Speed": -0.25
+        },
+        {
+            "Name": "Plop Back Oil",
+            "Demo": 1,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Recoil": 1.25,
+            "Ammo Consume Chance": -0.2
+        },
+        {
+            "Name": "Airsoft Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Damage": -15.0,
+            "Drag Mult": 7.0,
+            "Reload Speed": 0.4
+        },
+        {
+            "Name": "Bulk Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Ammo Consume Chance": -0.4,
+            "Bullet Drop": 10.0
+        },
+        {
+            "Name": "Lost In Focus Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Spread": -0.6,
+            "Consume Extra Ammo Chance": 0.3
+        },
+        {
+            "Name": "Sender Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Damage": 25.0,
+            "RPM": -0.25
+        },
+        {
+            "Name": "Contained Force Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Recoil": -0.45,
+            "Max Durability": -0.2
+        },
+        {
+            "Name": "Multishot Oil",
+            "Demo": 1,
+            "Early Access": 1,
+            "Base Price": 600,
+            "Costs Durability": 1,
+            "Damage%": -0.7,
+            "Projectile Amount": 2.0
+        },
+        {
+            "Name": "Rush Job Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Reload Speed": 0.5,
+            "Consume Extra Ammo Chance": 0.3
+        },
+        {
+            "Name": "Low Roller Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Crit Chance": 0.1,
+            "No Money Drops": 1.0
+        },
+        {
+            "Name": "Purse Gun Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1200,
+            "Costs Durability": 1,
+            "Recoil": -0.35,
+            "Reload Speed": -0.3
+        },
+        {
+            "Name": "Considerate Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 1,
+            "Bullet Penetration": 1.0,
+            "Damage": -25.0
+        },
+        {
+            "Name": "Release Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1100,
+            "Costs Durability": 0,
+            "Max Durability": 0.4,
+            "Recoil": 1.5
+        },
+        {
+            "Name": "Scramble Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 600,
+            "Costs Durability": 1,
+            "Bullet Bounces": 1.0,
+            "No Organs Drop": 1.0
+        },
+        {
+            "Name": "Heavy Pockets  Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Jump Power": -1.0,
+            "Ammo Consume Chance": -0.2
+        },
+        {
+            "Name": "Kicker Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Damage": 20.0,
+            "Recoil": 0.5
+        },
+        {
+            "Name": "Attack Speed Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "RPM": 0.25
+        },
+        {
+            "Name": "Shaved Clip Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 550,
+            "Costs Durability": 1,
+            "Reload Speed": 0.5,
+            "Max Durability": -0.3
+        },
+        {
+            "Name": "Parallel Mag Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Projectile Amount": 1.0,
+            "Reload Speed": -0.5
+        },
+        {
+            "Name": "Easy Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 900,
+            "Costs Durability": 1,
+            "Recoil": -0.2,
+            "No Money Drops": 1.0
+        },
+        {
+            "Name": "Damage Oil",
+            "Demo": 1,
+            "Early Access": 1,
+            "Base Price": 1300,
+            "Costs Durability": 1,
+            "Damage%": 0.25
+        },
+        {
+            "Name": "Assassin Dart Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 250,
+            "Costs Durability": 1,
+            "Bullet Speed": 0.7,
+            "Move Speed": -0.25
+        },
+        {
+            "Name": "Farsighted Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 200,
+            "Costs Durability": 1,
+            "Bullet Penetration": 2.0,
+            "Consume Extra Ammo Chance": 0.3
+        },
+        {
+            "Name": "Whim Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 450,
+            "Costs Durability": 1,
+            "Bullet Speed": 0.5,
+            "Loot Chance Multiplier": -0.25
+        },
+        {
+            "Name": "Fidget Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 450,
+            "Costs Durability": 1,
+            "Damage": 20.0,
+            "Reload Speed": -0.25
+        },
+        {
+            "Name": "Walk Easy Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 250,
+            "Costs Durability": 1,
+            "Ammo Consume Chance": -0.15,
+            "Move Speed": -0.1
+        },
+        {
+            "Name": "Solid Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 350,
+            "Costs Durability": 1,
+            "Damage": 40.0,
+            "Bullet Drop": 10.0,
+            "Bullet Size": 0.5
+        },
+        {
+            "Name": "Wobble Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Bullet Bounces": 1.0,
+            "Spread": 1.0
+        },
+        {
+            "Name": "Enchantment_BoltOil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 370,
+            "Costs Durability": 1,
+            "Bullet Speed": 0.5,
+            "Damage": -30.0
+        },
+        {
+            "Name": "No Need Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1000,
+            "Costs Durability": 1,
+            "Crit Chance": 0.15,
+            "Loot Chance Multiplier": -0.25
+        },
+        {
+            "Name": "Safety Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Recoil": -0.35,
+            "Damage%": -0.1
+        },
+        {
+            "Name": "High Grade Oil",
+            "Demo": 1,
+            "Early Access": 1,
+            "Base Price": 1200,
+            "Costs Durability": 0,
+            "Max Durability": 0.25
+        },
+        {
+            "Name": "Flea Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Bullet Bounces": 2.0,
+            "Bullet Size": -50.0,
+            "Damage%": -0.5
+        },
+        {
+            "Name": "Chub Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 100,
+            "Costs Durability": 1,
+            "Bullet Size": 1.0,
+            "Damage%": -0.2
+        },
+        {
+            "Name": "Stable Hip Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1100,
+            "Costs Durability": 1,
+            "Recoil": -0.62,
+            "Disables Aiming": 1.0
+        },
+        {
+            "Name": "Expander Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Damage": 20.0,
+            "No Organs Drop": 1.0
+        },
+        {
+            "Name": "Dart Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 230,
+            "Costs Durability": 1,
+            "Bullet Speed": 0.5,
+            "Jump Power": -0.25
+        },
+        {
+            "Name": "Size Up Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Bullet Size": 1.0
+        },
+        {
+            "Name": "Perfect Bounce Oil",
+            "Demo": 1,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Bullet Bounces": 1.0
+        },
+        {
+            "Name": "Franciscan Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 450,
+            "Costs Durability": 1,
+            "Damage%": 0.15,
+            "No Money Drops": 1.0
+        },
+        {
+            "Name": "Delayed Hyper Tube Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 400,
+            "Costs Durability": 1,
+            "Bullet Speed": 1.0,
+            "RPM": -0.5
+        },
+        {
+            "Name": "Critical Oil",
+            "Demo": 1,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Crit Chance": 0.15
+        },
+        {
+            "Name": "Artery Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 1,
+            "Crit Chance": 0.1,
+            "Bullet Size": -0.5
+        },
+        {
+            "Name": "Double Lock Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Reload Speed": 0.35,
+            "RPM": -0.25
+        },
+        {
+            "Name": "Spread Oil",
+            "Demo": 1,
+            "Early Access": 1,
+            "Base Price": 900,
+            "Costs Durability": 1,
+            "Spread": -0.3
+        },
+        {
+            "Name": "Relax Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Recoil": -0.5,
+            "Bullet Speed": -0.2
+        },
+        {
+            "Name": "Heavy Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Damage%": 0.6,
+            "Bullet Drop": 10.0,
+            "Bullet Size": 0.5
+        },
+        {
+            "Name": "No Look Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "RPM": 0.3,
+            "Disables Aiming": 1.0
+        },
+        {
+            "Name": "Tech Support Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1100,
+            "Costs Durability": 1,
+            "Jump Power": -0.7,
+            "Reload Speed": 0.5
+        },
+        {
+            "Name": "Bystander Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Bullet Penetration": 1.0,
+            "Disables Aiming": 1.0
+        },
+        {
+            "Name": "Birth Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 100,
+            "Costs Durability": 1,
+            "Bullet Size": 3.0,
+            "Max Durability": -0.3
+        },
+        {
+            "Name": "Inconsiderate Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 250,
+            "Costs Durability": 1,
+            "Bullet Penetration": 1.0,
+            "Spread": 2.0
+        },
+        {
+            "Name": "Rigor Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 125,
+            "Costs Durability": 1,
+            "Bullet Penetration": 1.0,
+            "Bullet Speed": -0.5
+        },
+        {
+            "Name": "Extra Powder Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 400,
+            "Costs Durability": 1,
+            "Bullet Speed": 0.5,
+            "Reload Speed": -0.25
+        },
+        {
+            "Name": "Untechnical Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 1,
+            "Bullet Penetration": 1.0,
+            "Reload Speed": -0.25
+        },
+        {
+            "Name": "Task Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 900,
+            "Costs Durability": 1,
+            "No Organs Drop": 1.0,
+            "Reload Speed": 0.3
+        },
+        {
+            "Name": "Surgical Laser Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 400,
+            "Costs Durability": 1,
+            "Bullet Penetration": 3.0,
+            "Damage%": -0.3
+        },
+        {
+            "Name": "Blurt Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 1,
+            "RPM": 0.3,
+            "Bullet Speed": -0.2
+        },
+        {
+            "Name": "Potato Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 400,
+            "Costs Durability": 1,
+            "Bullet Size": 2.0,
+            "Disables Aiming": 1.0
+        },
+        {
+            "Name": "Lightweight Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "RPM": 0.5,
+            "Recoil": 0.5
+        },
+        {
+            "Name": "Perforate Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "RPM": 0.2,
+            "No Organs Drop": 1.0
+        },
+        {
+            "Name": "Matrix Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 1,
+            "Bullet Speed": -0.9,
+            "Projectile Amount": 3.0,
+            "Damage%": -0.3,
+            "Drag Mult": 40.0,
+            "Spread": 4.0
+        },
+        {
+            "Name": "Cheap Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Damage%": -0.2,
+            "Ammo Consume Chance": -0.3
+        },
+        {
+            "Name": "Hefty Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1000,
+            "Costs Durability": 0,
+            "Max Durability": 0.3,
+            "Move Speed": -0.25
+        },
+        {
+            "Name": "Force Oil",
+            "Demo": 0,
+            "Early Access": 0,
+            "Base Price": 1000,
+            "Costs Durability": 1,
+            "Projectile Force Multiplier": 2.0
+        },
+        {
+            "Name": "Dum Dum Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1000,
+            "Costs Durability": 1,
+            "Damage%": 0.15,
+            "No Organs Drop": 1.0
+        },
+        {
+            "Name": "Stoic Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1100,
+            "Costs Durability": 1,
+            "Spread": -0.3,
+            "No Money Drops": 1.0
+        },
+        {
+            "Name": "Dead Center Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Spread": -2.0,
+            "Recoil": 1.0
+        },
+        {
+            "Name": "Careful Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Spread": -0.3,
+            "RPM": -0.25
+        },
+        {
+            "Name": "Launcher Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Damage%": 0.2,
+            "RPM": -0.25
+        },
+        {
+            "Name": "Hyper Lead Oil",
+            "Demo": 1,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Damage%": 0.4,
+            "Bullet Drop": 40.0,
+            "Bullet Speed": 1.0
+        },
+        {
+            "Name": "Jungian Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 600,
+            "Costs Durability": 1,
+            "Bullet Penetration": 1.0,
+            "Move Speed": -0.15
+        },
+        {
+            "Name": "Flow Funnel Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Recoil": -0.65,
+            "Spread": 3.0
+        },
+        {
+            "Name": "Needleeye Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 200,
+            "Costs Durability": 1,
+            "Bullet Penetration": 1.0,
+            "RPM": -0.25
+        },
+        {
+            "Name": "Big Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Bullet Drop": 20.0,
+            "Bullet Speed": -0.2,
+            "Damage": 30.0
+        },
+        {
+            "Name": "Glass Cannon Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Damage%": 0.25,
+            "Max Durability": -0.35
+        },
+        {
+            "Name": "Slotmachine Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Crit Chance": 0.25,
+            "Consume Extra Ammo Chance": 0.2
+        },
+        {
+            "Name": "Bad Planet Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Bullet Penetration": 1.0,
+            "Jump Power": -0.3
+        },
+        {
+            "Name": "Plinker Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Spread": -0.9,
+            "Damage%": -0.2
+        },
+        {
+            "Name": "Collateral Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 350,
+            "Costs Durability": 1,
+            "Bullet Penetration": 2.0,
+            "Recoil": 1.0
+        },
+        {
+            "Name": "Congestion Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 1,
+            "Bullet Size": 1.0,
+            "Loot Chance Multiplier": -0.5
+        },
+        {
+            "Name": "Sherlock Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Bullet Bounces": 4.0,
+            "RPM": -0.5
+        },
+        {
+            "Name": "Tactical Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Damage%": -0.2,
+            "Reload Speed": 0.6
+        },
+        {
+            "Name": "Fidget Lord Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1000,
+            "Costs Durability": 1,
+            "Move Speed": -0.6,
+            "Reload Speed": 0.7
+        },
+        {
+            "Name": "Detune Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 0,
+            "Max Durability": 0.5,
+            "Damage%": -0.25
+        },
+        {
+            "Name": "Overclock Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1000,
+            "Costs Durability": 1,
+            "Damage%": 0.4,
+            "Consume Extra Ammo Chance": 0.3
+        },
+        {
+            "Name": "Reload Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1100,
+            "Costs Durability": 1,
+            "Reload Speed": 0.25
+        },
+        {
+            "Name": "Robust Mechanics Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 0,
+            "Max Durability": 0.35,
+            "RPM": -0.25
+        },
+        {
+            "Name": "Spartan Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1000,
+            "Costs Durability": 1,
+            "Damage%": 0.2,
+            "Loot Chance Multiplier": -0.5
+        },
+        {
+            "Name": "Thorough Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 900,
+            "Costs Durability": 1,
+            "Spread": -0.35,
+            "Move Speed": -0.15
+        },
+        {
+            "Name": "BB Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "RPM": 0.2,
+            "Bullet Size": -0.7
+        },
+        {
+            "Name": "Vasectomy Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Bullet Penetration": 1.0,
+            "Loot Chance Multiplier": -0.5
+        },
+        {
+            "Name": "Artillery Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Spread": -0.9,
+            "Bullet Drop": 10.0
+        },
+        {
+            "Name": "Smash Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 600,
+            "Costs Durability": 1,
+            "Bullet Size": 3.0,
+            "No Organs Drop": 1.0
+        },
+        {
+            "Name": "Braced Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Recoil": -0.2,
+            "Jump Power": -0.5
+        },
+        {
+            "Name": "Synchronicity Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Bullet Bounces": 3.0,
+            "Consume Extra Ammo Chance": 0.3
+        },
+        {
+            "Name": "Casual Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1000,
+            "Costs Durability": 1,
+            "Recoil": -0.3,
+            "Loot Chance Multiplier": -0.2
+        },
+        {
+            "Name": "Instant Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Bullet Speed": 2.0,
+            "Disables Aiming": 1.0
+        },
+        {
+            "Name": "Axe Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 1,
+            "Crit Chance": 0.25,
+            "Bullet Drop": 10.0
+        },
+        {
+            "Name": "Multichamber Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1200,
+            "Costs Durability": 1,
+            "Consume Extra Ammo Chance": 1.0,
+            "Projectile Amount": 1.0
+        },
+        {
+            "Name": "Nerf Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Damage%": -0.1,
+            "Reload Speed": 0.5,
+            "Bullet Drop": 5.0
+        },
+        {
+            "Name": "Imperfect Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Bullet Bounces": 2.0,
+            "Max Durability": -0.15
+        },
+        {
+            "Name": "Longshot Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1200,
+            "Costs Durability": 1,
+            "Bullet Bounces": 3.0,
+            "Disables Aiming": 1.0
+        },
+        {
+            "Name": "Stability Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Recoil": -0.35,
+            "Damage": -15.0
+        },
+        {
+            "Name": "Test oil 2",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 400,
+            "Costs Durability": 1,
+            "Max Durability": -400.0
+        },
+        {
+            "Name": "Two Time Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1300,
+            "Costs Durability": 1,
+            "Damage%": -0.1,
+            "Projectile Amount": 2.0,
+            "No Money Drops": 1.0,
+            "Spread": 3.0
+        },
+        {
+            "Name": "Gunslinger Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 900,
+            "Costs Durability": 1,
+            "Disables Aiming": 1.0,
+            "Reload Speed": 0.4
+        },
+        {
+            "Name": "Stationary Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1200,
+            "Costs Durability": 1,
+            "RPM": 0.8,
+            "Move Speed": -0.9,
+            "Jump Power": -0.9,
+            "Recoil": -0.85
+        },
+        {
+            "Name": "Twice Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1000,
+            "Costs Durability": 1,
+            "Damage%": -0.25,
+            "Projectile Amount": 1.0
+        },
+        {
+            "Name": "Enchantment_SoftBulletOil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 0,
+            "Max Durability": 0.25,
+            "Bullet Speed": -0.3
+        },
+        {
+            "Name": "Potshot Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Damage": 35.0,
+            "Disables Aiming": 1.0
+        },
+        {
+            "Name": "Hoop Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Bullet Bounces": 4.0,
+            "Bullet Drop": 10.0
+        },
+        {
+            "Name": "Arrow Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 200,
+            "Costs Durability": 1,
+            "Bullet Speed": 0.8,
+            "Damage%": -0.2
+        },
+        {
+            "Name": "Fragile System Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "RPM": 0.5,
+            "Max Durability": -0.3
+        },
+        {
+            "Name": "Grounded Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Damage%": 0.15,
+            "Jump Power": -0.1
+        },
+        {
+            "Name": "Gemini Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Damage": -30.0,
+            "Projectile Amount": 1.0
+        },
+        {
+            "Name": "Big Tax Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 220,
+            "Costs Durability": 1,
+            "Bullet Size": 1.0,
+            "No Money Drops": 1.0
+        },
+        {
+            "Name": "Tight Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 400,
+            "Costs Durability": 1,
+            "Bullet Size": 1.0,
+            "RPM": -0.1
+        },
+        {
+            "Name": "Fast Bet Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 450,
+            "Costs Durability": 1,
+            "Bullet Speed": 0.5,
+            "No Money Drops": 1.0
+        },
+        {
+            "Name": "Boulder Oil",
+            "Demo": 1,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Damage%": 0.2,
+            "Bullet Drop": 10.0,
+            "Bullet Bounces": 1.0,
+            "Bullet Bounciness": 0.8
+        },
+        {
+            "Name": "Aimless Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Crit Chance": 0.3,
+            "Disables Aiming": 1.0
+        },
+        {
+            "Name": "Dense Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 0,
+            "Max Durability": 0.2,
+            "Jump Power": -0.25
+        },
+        {
+            "Name": "Penetration Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1000,
+            "Costs Durability": 1,
+            "Bullet Penetration": 1.0
+        },
+        {
+            "Name": "Rapid Internals Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 400,
+            "Costs Durability": 1,
+            "RPM": 0.35,
+            "Damage%": -0.2
+        },
+        {
+            "Name": "Boomstick Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Damage%": -0.25,
+            "Projectile Amount": 2.0,
+            "Recoil": 2.0,
+            "Disables Aiming": 1.0,
+            "Spread": 0.7
+        },
+        {
+            "Name": "Test oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 400,
+            "Costs Durability": 1,
+            "Recoil": 4.0
+        },
+        {
+            "Name": "Smart Bullet Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Crit Chance": 0.2,
+            "Bullet Speed": -0.6
+        },
+        {
+            "Name": "Seated Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Damage": 20.0,
+            "Jump Power": -0.1
+        },
+        {
+            "Name": "Fast Forward Oil",
+            "Demo": 0,
+            "Early Access": 0,
+            "Base Price": 1000,
+            "Costs Durability": 1,
+            "Bullet Speed": 2.0,
+            "Durability Per Shot": 0.0
+        },
+        {
+            "Name": "Sect Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 600,
+            "Costs Durability": 1,
+            "Bullet Penetration": 1.0,
+            "No Money Drops": 1.0
+        },
+        {
+            "Name": "Vegetable Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Recoil": -0.2,
+            "No Organs Drop": 1.0
+        },
+        {
+            "Name": "Hustler Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Crit Chance": 0.25,
+            "Damage": -30.0
+        },
+        {
+            "Name": "Overdose Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 100,
+            "Costs Durability": 1,
+            "Bullet Penetration": 2.0,
+            "Max Durability": -0.25
+        },
+        {
+            "Name": "Add Damage Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Damage": 15.0
+        },
+        {
+            "Name": "Discharge Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Damage": 30.0,
+            "Consume Extra Ammo Chance": 0.3
+        },
+        {
+            "Name": "Division Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Damage%": -0.2,
+            "Projectile Amount": 1.0,
+            "Spread": 1.0,
+            "Bullet Size": -0.7
+        },
+        {
+            "Name": "Double Nothing Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Damage%": -0.25,
+            "Projectile Amount": 1.0,
+            "Loot Chance Multiplier": -1.0
+        },
+        {
+            "Name": "Xanax Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Bullet Size": 2.0,
+            "Move Speed": -0.25
+        },
+        {
+            "Name": "Out of the Box Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 400,
+            "Costs Durability": 1,
+            "Crit Chance": 0.2,
+            "Max Durability": -0.3
+        },
+        {
+            "Name": "Dynamic Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 450,
+            "Costs Durability": 1,
+            "Damage": -30.0,
+            "Reload Speed": 0.4
+        },
+        {
+            "Name": "Gargantuan Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 400,
+            "Costs Durability": 1,
+            "Bullet Size": 2.0,
+            "Reload Speed": -0.5
+        },
+        {
+            "Name": "Eternal Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 4000,
+            "Costs Durability": 1
+        },
+        {
+            "Name": "Diesel Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 225,
+            "Costs Durability": 1,
+            "Bullet Speed": 0.5,
+            "Recoil": 0.3
+        },
+        {
+            "Name": "Rookie Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 1,
+            "RPM": 0.5,
+            "Reload Speed": -0.75
+        },
+        {
+            "Name": "Tension Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1100,
+            "Costs Durability": 1,
+            "Recoil": -0.35,
+            "Move Speed": -0.15
+        },
+        {
+            "Name": "Supressive Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 1,
+            "Accuracy When Moving": -2.0,
+            "Projectile Amount": 3.0,
+            "Damage%": -0.4
+        },
+        {
+            "Name": "Slippy Coating Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1200,
+            "Costs Durability": 0,
+            "Max Durability": 0.3,
+            "Spread": 1.0
+        },
+        {
+            "Name": "Inherited Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1500,
+            "Costs Durability": 0,
+            "Max Durability": 0.5,
+            "Loot Chance Multiplier": -1.0
+        },
+        {
+            "Name": "Tight Barrel Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Bullet Speed": 0.7,
+            "Max Durability": -0.2
+        },
+        {
+            "Name": "Careless Splitter Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Damage%": -0.25,
+            "Projectile Amount": 3.0,
+            "Recoil": 2.0,
+            "Spread": 2.0,
+            "Max Durability": -0.75
+        },
+        {
+            "Name": "Happy Accident Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Crit Chance": 0.15,
+            "Recoil": 0.4
+        },
+        {
+            "Name": "Main Focus Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "No Money Drops": 1.0,
+            "Reload Speed": 0.2
+        },
+        {
+            "Name": "Shower Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "RPM": 0.4,
+            "Bullet Drop": 10.0
+        },
+        {
+            "Name": "Scatter Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Damage%": -0.15,
+            "Projectile Amount": 1.0,
+            "Spread": 1.0
+        },
+        {
+            "Name": "Ready Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Recoil": -0.45,
+            "RPM": -0.4
+        },
+        {
+            "Name": "Confidence Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 750,
+            "Costs Durability": 1,
+            "Crit Chance": 0.2,
+            "Reload Speed": -0.25
+        },
+        {
+            "Name": "Terminator Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1000,
+            "Costs Durability": 1,
+            "Damage%": 0.25,
+            "Move Speed": -0.15
+        },
+        {
+            "Name": "Slow Mo Oil",
+            "Demo": 0,
+            "Early Access": 0,
+            "Base Price": 1000,
+            "Costs Durability": 1,
+            "Bullet Speed": -0.8
+        },
+        {
+            "Name": "Ascetic Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 350,
+            "Costs Durability": 1,
+            "Damage": 30.0,
+            "No Money Drops": 1.0
+        },
+        {
+            "Name": "Unlabeled Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 1,
+            "Enchantment Random Oil": 1.0
+        },
+        {
+            "Name": "Zooming Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 450,
+            "Costs Durability": 1,
+            "Bullet Speed": 0.8,
+            "Spread": 1.0
+        },
+        {
+            "Name": "Complicated Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Damage%": 0.3,
+            "Reload Speed": -0.25
+        },
+        {
+            "Name": "Helium Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Ammo Consume Chance": -0.4,
+            "Bullet Speed": -0.4
+        },
+        {
+            "Name": "Stiffy Fit Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 900,
+            "Costs Durability": 0,
+            "Max Durability": 0.45,
+            "Reload Speed": -0.5
+        },
+        {
+            "Name": "Heavy Lead Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 100,
+            "Costs Durability": 1,
+            "Bullet Penetration": 2.0,
+            "Bullet Drop": 20.0
+        },
+        {
+            "Name": "Gentle Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 0,
+            "Max Durability": 0.1,
+            "Bullet Size": -0.3
+        },
+        {
+            "Name": "Keep Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Ammo Consume Chance": -0.2,
+            "No Organs Drop": 1.0
+        },
+        {
+            "Name": "Action Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Recoil": 1.0,
+            "Reload Speed": 0.4
+        },
+        {
+            "Name": "Machine Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1000,
+            "Costs Durability": 1,
+            "RPM": 0.5,
+            "Move Speed": -0.5
+        },
+        {
+            "Name": "Rubber Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 0,
+            "Max Durability": 0.25,
+            "Damage": -10.0
+        },
+        {
+            "Name": "Bombard Oil",
+            "Demo": 1,
+            "Early Access": 1,
+            "Base Price": 600,
+            "Costs Durability": 1,
+            "Damage%": -0.1,
+            "Projectile Amount": 2.0,
+            "Bullet Drop": 10.0
+        },
+        {
+            "Name": "Exotic Barrel Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Spread": -1.5,
+            "Max Durability": -0.5
+        },
+        {
+            "Name": "Puncture Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Crit Chance": 0.15,
+            "No Organs Drop": 1.0
+        },
+        {
+            "Name": "Great Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 450,
+            "Costs Durability": 1,
+            "Bullet Drop": 40.0,
+            "Bullet Speed": -0.2,
+            "Damage%": 0.4
+        }
+    ],
+    "Damage%": [
+        {
+            "Name": "Black Friday Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 1,
+            "Max Durability": -0.33,
+            "Projectile Amount": 1.0,
+            "Damage%": -0.15
+        },
+        {
+            "Name": "Gambler Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Crit Chance": 0.2,
+            "Damage%": -0.2
+        },
+        {
+            "Name": "Puncher Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1200,
+            "Costs Durability": 1,
+            "Damage%": 0.3,
+            "Recoil": 1.5
+        },
+        {
+            "Name": "Shredder Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Damage%": -0.2,
+            "Projectile Amount": 1.0,
+            "Spread": 1.0,
+            "No Organs Drop": 1.0
+        },
+        {
+            "Name": "First Blood Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1200,
+            "Costs Durability": 1,
+            "Damage%": 0.3,
+            "Spread": 1.0
+        },
+        {
+            "Name": "Mosquito Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Ammo Consume Chance": -0.7,
+            "Damage%": -0.3,
+            "Bullet Speed": -0.3
+        },
+        {
+            "Name": "Elephant Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Projectile Amount": 2.0,
+            "Damage%": -0.25,
+            "Recoil": 0.1,
+            "Move Speed": -0.5,
+            "Bullet Drop": 10.0,
+            "Bullet Size": 200.0,
+            "Spread": 2.0
+        },
+        {
+            "Name": "RicochetOil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Bullet Bounces": 3.0,
+            "Damage%": -0.1
+        },
+        {
+            "Name": "Slow Punch Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Damage%": 0.5,
+            "Bullet Speed": -0.5
+        },
+        {
+            "Name": "Tandem Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Damage%": -0.15,
+            "Projectile Amount": 1.0
+        },
+        {
+            "Name": "Hip Blaster Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Damage%": 0.2,
+            "Disables Aiming": 1.0
+        },
+        {
+            "Name": "Multishot Oil",
+            "Demo": 1,
+            "Early Access": 1,
+            "Base Price": 600,
+            "Costs Durability": 1,
+            "Damage%": -0.7,
+            "Projectile Amount": 2.0
+        },
+        {
+            "Name": "Damage Oil",
+            "Demo": 1,
+            "Early Access": 1,
+            "Base Price": 1300,
+            "Costs Durability": 1,
+            "Damage%": 0.25
+        },
+        {
+            "Name": "Safety Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Recoil": -0.35,
+            "Damage%": -0.1
+        },
+        {
+            "Name": "Flea Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Bullet Bounces": 2.0,
+            "Bullet Size": -50.0,
+            "Damage%": -0.5
+        },
+        {
+            "Name": "Chub Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 100,
+            "Costs Durability": 1,
+            "Bullet Size": 1.0,
+            "Damage%": -0.2
+        },
+        {
+            "Name": "Franciscan Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 450,
+            "Costs Durability": 1,
+            "Damage%": 0.15,
+            "No Money Drops": 1.0
+        },
+        {
+            "Name": "Heavy Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Damage%": 0.6,
+            "Bullet Drop": 10.0,
+            "Bullet Size": 0.5
+        },
+        {
+            "Name": "Surgical Laser Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 400,
+            "Costs Durability": 1,
+            "Bullet Penetration": 3.0,
+            "Damage%": -0.3
+        },
+        {
+            "Name": "Matrix Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 1,
+            "Bullet Speed": -0.9,
+            "Projectile Amount": 3.0,
+            "Damage%": -0.3,
+            "Drag Mult": 40.0,
+            "Spread": 4.0
+        },
+        {
+            "Name": "Cheap Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Damage%": -0.2,
+            "Ammo Consume Chance": -0.3
+        },
+        {
+            "Name": "Dum Dum Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1000,
+            "Costs Durability": 1,
+            "Damage%": 0.15,
+            "No Organs Drop": 1.0
+        },
+        {
+            "Name": "Launcher Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Damage%": 0.2,
+            "RPM": -0.25
+        },
+        {
+            "Name": "Hyper Lead Oil",
+            "Demo": 1,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Damage%": 0.4,
+            "Bullet Drop": 40.0,
+            "Bullet Speed": 1.0
+        },
+        {
+            "Name": "Glass Cannon Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Damage%": 0.25,
+            "Max Durability": -0.35
+        },
+        {
+            "Name": "Plinker Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Spread": -0.9,
+            "Damage%": -0.2
+        },
+        {
+            "Name": "Tactical Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Damage%": -0.2,
+            "Reload Speed": 0.6
+        },
+        {
+            "Name": "Detune Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 0,
+            "Max Durability": 0.5,
+            "Damage%": -0.25
+        },
+        {
+            "Name": "Overclock Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1000,
+            "Costs Durability": 1,
+            "Damage%": 0.4,
+            "Consume Extra Ammo Chance": 0.3
+        },
+        {
+            "Name": "Spartan Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1000,
+            "Costs Durability": 1,
+            "Damage%": 0.2,
+            "Loot Chance Multiplier": -0.5
+        },
+        {
+            "Name": "Nerf Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Damage%": -0.1,
+            "Reload Speed": 0.5,
+            "Bullet Drop": 5.0
+        },
+        {
+            "Name": "Two Time Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1300,
+            "Costs Durability": 1,
+            "Damage%": -0.1,
+            "Projectile Amount": 2.0,
+            "No Money Drops": 1.0,
+            "Spread": 3.0
+        },
+        {
+            "Name": "Twice Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1000,
+            "Costs Durability": 1,
+            "Damage%": -0.25,
+            "Projectile Amount": 1.0
+        },
+        {
+            "Name": "Arrow Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 200,
+            "Costs Durability": 1,
+            "Bullet Speed": 0.8,
+            "Damage%": -0.2
+        },
+        {
+            "Name": "Grounded Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Damage%": 0.15,
+            "Jump Power": -0.1
+        },
+        {
+            "Name": "Boulder Oil",
+            "Demo": 1,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Damage%": 0.2,
+            "Bullet Drop": 10.0,
+            "Bullet Bounces": 1.0,
+            "Bullet Bounciness": 0.8
+        },
+        {
+            "Name": "Rapid Internals Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 400,
+            "Costs Durability": 1,
+            "RPM": 0.35,
+            "Damage%": -0.2
+        },
+        {
+            "Name": "Boomstick Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Damage%": -0.25,
+            "Projectile Amount": 2.0,
+            "Recoil": 2.0,
+            "Disables Aiming": 1.0,
+            "Spread": 0.7
+        },
+        {
+            "Name": "Division Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Damage%": -0.2,
+            "Projectile Amount": 1.0,
+            "Spread": 1.0,
+            "Bullet Size": -0.7
+        },
+        {
+            "Name": "Double Nothing Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Damage%": -0.25,
+            "Projectile Amount": 1.0,
+            "Loot Chance Multiplier": -1.0
+        },
+        {
+            "Name": "Supressive Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 1,
+            "Accuracy When Moving": -2.0,
+            "Projectile Amount": 3.0,
+            "Damage%": -0.4
+        },
+        {
+            "Name": "Careless Splitter Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Damage%": -0.25,
+            "Projectile Amount": 3.0,
+            "Recoil": 2.0,
+            "Spread": 2.0,
+            "Max Durability": -0.75
+        },
+        {
+            "Name": "Scatter Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Damage%": -0.15,
+            "Projectile Amount": 1.0,
+            "Spread": 1.0
+        },
+        {
+            "Name": "Terminator Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1000,
+            "Costs Durability": 1,
+            "Damage%": 0.25,
+            "Move Speed": -0.15
+        },
+        {
+            "Name": "Complicated Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Damage%": 0.3,
+            "Reload Speed": -0.25
+        },
+        {
+            "Name": "Bombard Oil",
+            "Demo": 1,
+            "Early Access": 1,
+            "Base Price": 600,
+            "Costs Durability": 1,
+            "Damage%": -0.1,
+            "Projectile Amount": 2.0,
+            "Bullet Drop": 10.0
+        },
+        {
+            "Name": "Great Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 450,
+            "Costs Durability": 1,
+            "Bullet Drop": 40.0,
+            "Bullet Speed": -0.2,
+            "Damage%": 0.4
+        }
+    ],
+    "Max Durability": [
+        {
+            "Name": "Black Friday Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 1,
+            "Max Durability": -0.33,
+            "Projectile Amount": 1.0,
+            "Damage%": -0.15
+        },
+        {
+            "Name": "Disposable Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Damage": 50.0,
+            "Max Durability": -0.75
+        },
+        {
+            "Name": "Last Drop Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 250,
+            "Costs Durability": 1,
+            "Ammo Consume Chance": -0.3,
+            "Max Durability": -0.25
+        },
+        {
+            "Name": "Sensible Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 0,
+            "Max Durability": 0.2,
+            "No Organs Drop": 1.0
+        },
+        {
+            "Name": "Trusty Old Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 750,
+            "Costs Durability": 0,
+            "Max Durability": 0.2,
+            "No Money Drops": 1.0
+        },
+        {
+            "Name": "Seated Fit Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 0,
+            "Max Durability": 0.7,
+            "Bullet Drop": 10.0
+        },
+        {
+            "Name": "Rigid System Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 0,
+            "Max Durability": 0.4,
+            "Consume Extra Ammo Chance": 0.2
+        },
+        {
+            "Name": "Contained Force Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Recoil": -0.45,
+            "Max Durability": -0.2
+        },
+        {
+            "Name": "Release Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1100,
+            "Costs Durability": 0,
+            "Max Durability": 0.4,
+            "Recoil": 1.5
+        },
+        {
+            "Name": "Shaved Clip Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 550,
+            "Costs Durability": 1,
+            "Reload Speed": 0.5,
+            "Max Durability": -0.3
+        },
+        {
+            "Name": "High Grade Oil",
+            "Demo": 1,
+            "Early Access": 1,
+            "Base Price": 1200,
+            "Costs Durability": 0,
+            "Max Durability": 0.25
+        },
+        {
+            "Name": "Birth Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 100,
+            "Costs Durability": 1,
+            "Bullet Size": 3.0,
+            "Max Durability": -0.3
+        },
+        {
+            "Name": "Hefty Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1000,
+            "Costs Durability": 0,
+            "Max Durability": 0.3,
+            "Move Speed": -0.25
+        },
+        {
+            "Name": "Glass Cannon Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Damage%": 0.25,
+            "Max Durability": -0.35
+        },
+        {
+            "Name": "Detune Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 0,
+            "Max Durability": 0.5,
+            "Damage%": -0.25
+        },
+        {
+            "Name": "Robust Mechanics Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 0,
+            "Max Durability": 0.35,
+            "RPM": -0.25
+        },
+        {
+            "Name": "Imperfect Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Bullet Bounces": 2.0,
+            "Max Durability": -0.15
+        },
+        {
+            "Name": "Test oil 2",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 400,
+            "Costs Durability": 1,
+            "Max Durability": -400.0
+        },
+        {
+            "Name": "Enchantment_SoftBulletOil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 0,
+            "Max Durability": 0.25,
+            "Bullet Speed": -0.3
+        },
+        {
+            "Name": "Fragile System Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "RPM": 0.5,
+            "Max Durability": -0.3
+        },
+        {
+            "Name": "Dense Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 0,
+            "Max Durability": 0.2,
+            "Jump Power": -0.25
+        },
+        {
+            "Name": "Overdose Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 100,
+            "Costs Durability": 1,
+            "Bullet Penetration": 2.0,
+            "Max Durability": -0.25
+        },
+        {
+            "Name": "Out of the Box Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 400,
+            "Costs Durability": 1,
+            "Crit Chance": 0.2,
+            "Max Durability": -0.3
+        },
+        {
+            "Name": "Slippy Coating Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1200,
+            "Costs Durability": 0,
+            "Max Durability": 0.3,
+            "Spread": 1.0
+        },
+        {
+            "Name": "Inherited Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1500,
+            "Costs Durability": 0,
+            "Max Durability": 0.5,
+            "Loot Chance Multiplier": -1.0
+        },
+        {
+            "Name": "Tight Barrel Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Bullet Speed": 0.7,
+            "Max Durability": -0.2
+        },
+        {
+            "Name": "Careless Splitter Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Damage%": -0.25,
+            "Projectile Amount": 3.0,
+            "Recoil": 2.0,
+            "Spread": 2.0,
+            "Max Durability": -0.75
+        },
+        {
+            "Name": "Stiffy Fit Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 900,
+            "Costs Durability": 0,
+            "Max Durability": 0.45,
+            "Reload Speed": -0.5
+        },
+        {
+            "Name": "Gentle Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 0,
+            "Max Durability": 0.1,
+            "Bullet Size": -0.3
+        },
+        {
+            "Name": "Rubber Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 0,
+            "Max Durability": 0.25,
+            "Damage": -10.0
+        },
+        {
+            "Name": "Exotic Barrel Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Spread": -1.5,
+            "Max Durability": -0.5
+        }
+    ],
+    "Projectile Amount": [
+        {
+            "Name": "Black Friday Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 1,
+            "Max Durability": -0.33,
+            "Projectile Amount": 1.0,
+            "Damage%": -0.15
+        },
+        {
+            "Name": "Shredder Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Damage%": -0.2,
+            "Projectile Amount": 1.0,
+            "Spread": 1.0,
+            "No Organs Drop": 1.0
+        },
+        {
+            "Name": "Elephant Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Projectile Amount": 2.0,
+            "Damage%": -0.25,
+            "Recoil": 0.1,
+            "Move Speed": -0.5,
+            "Bullet Drop": 10.0,
+            "Bullet Size": 200.0,
+            "Spread": 2.0
+        },
+        {
+            "Name": "Tandem Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Damage%": -0.15,
+            "Projectile Amount": 1.0
+        },
+        {
+            "Name": "Multishot Oil",
+            "Demo": 1,
+            "Early Access": 1,
+            "Base Price": 600,
+            "Costs Durability": 1,
+            "Damage%": -0.7,
+            "Projectile Amount": 2.0
+        },
+        {
+            "Name": "Parallel Mag Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Projectile Amount": 1.0,
+            "Reload Speed": -0.5
+        },
+        {
+            "Name": "Matrix Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 1,
+            "Bullet Speed": -0.9,
+            "Projectile Amount": 3.0,
+            "Damage%": -0.3,
+            "Drag Mult": 40.0,
+            "Spread": 4.0
+        },
+        {
+            "Name": "Multichamber Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1200,
+            "Costs Durability": 1,
+            "Consume Extra Ammo Chance": 1.0,
+            "Projectile Amount": 1.0
+        },
+        {
+            "Name": "Two Time Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1300,
+            "Costs Durability": 1,
+            "Damage%": -0.1,
+            "Projectile Amount": 2.0,
+            "No Money Drops": 1.0,
+            "Spread": 3.0
+        },
+        {
+            "Name": "Twice Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1000,
+            "Costs Durability": 1,
+            "Damage%": -0.25,
+            "Projectile Amount": 1.0
+        },
+        {
+            "Name": "Gemini Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Damage": -30.0,
+            "Projectile Amount": 1.0
+        },
+        {
+            "Name": "Boomstick Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Damage%": -0.25,
+            "Projectile Amount": 2.0,
+            "Recoil": 2.0,
+            "Disables Aiming": 1.0,
+            "Spread": 0.7
+        },
+        {
+            "Name": "Division Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Damage%": -0.2,
+            "Projectile Amount": 1.0,
+            "Spread": 1.0,
+            "Bullet Size": -0.7
+        },
+        {
+            "Name": "Double Nothing Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Damage%": -0.25,
+            "Projectile Amount": 1.0,
+            "Loot Chance Multiplier": -1.0
+        },
+        {
+            "Name": "Supressive Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 1,
+            "Accuracy When Moving": -2.0,
+            "Projectile Amount": 3.0,
+            "Damage%": -0.4
+        },
+        {
+            "Name": "Careless Splitter Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Damage%": -0.25,
+            "Projectile Amount": 3.0,
+            "Recoil": 2.0,
+            "Spread": 2.0,
+            "Max Durability": -0.75
+        },
+        {
+            "Name": "Scatter Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Damage%": -0.15,
+            "Projectile Amount": 1.0,
+            "Spread": 1.0
+        },
+        {
+            "Name": "Bombard Oil",
+            "Demo": 1,
+            "Early Access": 1,
+            "Base Price": 600,
+            "Costs Durability": 1,
+            "Damage%": -0.1,
+            "Projectile Amount": 2.0,
+            "Bullet Drop": 10.0
+        }
+    ],
+    "Spread": [
+        {
+            "Name": "Altruistic Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Spread": -0.3,
+            "Loot Chance Multiplier": -0.5
+        },
+        {
+            "Name": "Cycle Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Spread": 1.0,
+            "Reload Speed": 0.25
+        },
+        {
+            "Name": "Shredder Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Damage%": -0.2,
+            "Projectile Amount": 1.0,
+            "Spread": 1.0,
+            "No Organs Drop": 1.0
+        },
+        {
+            "Name": "First Blood Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1200,
+            "Costs Durability": 1,
+            "Damage%": 0.3,
+            "Spread": 1.0
+        },
+        {
+            "Name": "Chonk Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 200,
+            "Costs Durability": 1,
+            "Bullet Size": 1.0,
+            "Spread": 0.3
+        },
+        {
+            "Name": "Blindfold Oil",
+            "Demo": 1,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Crit Chance": 0.15,
+            "Spread": 2.0
+        },
+        {
+            "Name": "Spitter Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "RPM": 0.35,
+            "Spread": 1.0
+        },
+        {
+            "Name": "Slick Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1000,
+            "Costs Durability": 1,
+            "Spread": -0.3,
+            "Jump Power": -0.1
+        },
+        {
+            "Name": "Hip Marksman Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Spread": -0.3,
+            "Disables Aiming": 1.0
+        },
+        {
+            "Name": "Elephant Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Projectile Amount": 2.0,
+            "Damage%": -0.25,
+            "Recoil": 0.1,
+            "Move Speed": -0.5,
+            "Bullet Drop": 10.0,
+            "Bullet Size": 200.0,
+            "Spread": 2.0
+        },
+        {
+            "Name": "Carefree Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Ammo Consume Chance": -0.2,
+            "Spread": 1.0
+        },
+        {
+            "Name": "Bowl Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Spread": -0.5,
+            "Bullet Speed": -0.2
+        },
+        {
+            "Name": "Vegan Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Spread": -0.2,
+            "No Organs Drop": 1.0
+        },
+        {
+            "Name": "Brute Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Damage": 30.0,
+            "Spread": 0.7
+        },
+        {
+            "Name": "Compo Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1100,
+            "Costs Durability": 1,
+            "Reload Speed": 0.8,
+            "Move Speed": -0.6,
+            "Spread": -0.1,
+            "Recoil": -0.1
+        },
+        {
+            "Name": "Shellman Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Spread": -0.3,
+            "Reload Speed": -0.25
+        },
+        {
+            "Name": "Lost In Focus Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Spread": -0.6,
+            "Consume Extra Ammo Chance": 0.3
+        },
+        {
+            "Name": "Wobble Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Bullet Bounces": 1.0,
+            "Spread": 1.0
+        },
+        {
+            "Name": "Spread Oil",
+            "Demo": 1,
+            "Early Access": 1,
+            "Base Price": 900,
+            "Costs Durability": 1,
+            "Spread": -0.3
+        },
+        {
+            "Name": "Inconsiderate Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 250,
+            "Costs Durability": 1,
+            "Bullet Penetration": 1.0,
+            "Spread": 2.0
+        },
+        {
+            "Name": "Matrix Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 1,
+            "Bullet Speed": -0.9,
+            "Projectile Amount": 3.0,
+            "Damage%": -0.3,
+            "Drag Mult": 40.0,
+            "Spread": 4.0
+        },
+        {
+            "Name": "Stoic Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1100,
+            "Costs Durability": 1,
+            "Spread": -0.3,
+            "No Money Drops": 1.0
+        },
+        {
+            "Name": "Dead Center Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Spread": -2.0,
+            "Recoil": 1.0
+        },
+        {
+            "Name": "Careful Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Spread": -0.3,
+            "RPM": -0.25
+        },
+        {
+            "Name": "Flow Funnel Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Recoil": -0.65,
+            "Spread": 3.0
+        },
+        {
+            "Name": "Plinker Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Spread": -0.9,
+            "Damage%": -0.2
+        },
+        {
+            "Name": "Thorough Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 900,
+            "Costs Durability": 1,
+            "Spread": -0.35,
+            "Move Speed": -0.15
+        },
+        {
+            "Name": "Artillery Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Spread": -0.9,
+            "Bullet Drop": 10.0
+        },
+        {
+            "Name": "Two Time Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1300,
+            "Costs Durability": 1,
+            "Damage%": -0.1,
+            "Projectile Amount": 2.0,
+            "No Money Drops": 1.0,
+            "Spread": 3.0
+        },
+        {
+            "Name": "Boomstick Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Damage%": -0.25,
+            "Projectile Amount": 2.0,
+            "Recoil": 2.0,
+            "Disables Aiming": 1.0,
+            "Spread": 0.7
+        },
+        {
+            "Name": "Division Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Damage%": -0.2,
+            "Projectile Amount": 1.0,
+            "Spread": 1.0,
+            "Bullet Size": -0.7
+        },
+        {
+            "Name": "Slippy Coating Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1200,
+            "Costs Durability": 0,
+            "Max Durability": 0.3,
+            "Spread": 1.0
+        },
+        {
+            "Name": "Careless Splitter Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Damage%": -0.25,
+            "Projectile Amount": 3.0,
+            "Recoil": 2.0,
+            "Spread": 2.0,
+            "Max Durability": -0.75
+        },
+        {
+            "Name": "Scatter Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Damage%": -0.15,
+            "Projectile Amount": 1.0,
+            "Spread": 1.0
+        },
+        {
+            "Name": "Zooming Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 450,
+            "Costs Durability": 1,
+            "Bullet Speed": 0.8,
+            "Spread": 1.0
+        },
+        {
+            "Name": "Exotic Barrel Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Spread": -1.5,
+            "Max Durability": -0.5
+        }
+    ],
+    "Loot Chance Multiplier": [
+        {
+            "Name": "Altruistic Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Spread": -0.3,
+            "Loot Chance Multiplier": -0.5
+        },
+        {
+            "Name": "Skip Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Bullet Bounces": 1.0,
+            "Loot Chance Multiplier": -0.25
+        },
+        {
+            "Name": "Main Discipline Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Loot Chance Multiplier": -0.5,
+            "Reload Speed": 0.3
+        },
+        {
+            "Name": "Saviour Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 900,
+            "Costs Durability": 1,
+            "Ammo Consume Chance": -0.4,
+            "Loot Chance Multiplier": -1.0
+        },
+        {
+            "Name": "Zero Fucks Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "RPM": 0.5,
+            "Loot Chance Multiplier": -1.0
+        },
+        {
+            "Name": "Frugal Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Damage": 25.0,
+            "Loot Chance Multiplier": -0.5
+        },
+        {
+            "Name": "Whim Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 450,
+            "Costs Durability": 1,
+            "Bullet Speed": 0.5,
+            "Loot Chance Multiplier": -0.25
+        },
+        {
+            "Name": "No Need Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1000,
+            "Costs Durability": 1,
+            "Crit Chance": 0.15,
+            "Loot Chance Multiplier": -0.25
+        },
+        {
+            "Name": "Congestion Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 1,
+            "Bullet Size": 1.0,
+            "Loot Chance Multiplier": -0.5
+        },
+        {
+            "Name": "Spartan Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1000,
+            "Costs Durability": 1,
+            "Damage%": 0.2,
+            "Loot Chance Multiplier": -0.5
+        },
+        {
+            "Name": "Vasectomy Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Bullet Penetration": 1.0,
+            "Loot Chance Multiplier": -0.5
+        },
+        {
+            "Name": "Casual Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1000,
+            "Costs Durability": 1,
+            "Recoil": -0.3,
+            "Loot Chance Multiplier": -0.2
+        },
+        {
+            "Name": "Double Nothing Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Damage%": -0.25,
+            "Projectile Amount": 1.0,
+            "Loot Chance Multiplier": -1.0
+        },
+        {
+            "Name": "Inherited Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1500,
+            "Costs Durability": 0,
+            "Max Durability": 0.5,
+            "Loot Chance Multiplier": -1.0
+        }
+    ],
+    "Bullet Speed": [
+        {
+            "Name": "Turbulence Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 600,
+            "Costs Durability": 1,
+            "Bullet Speed": 0.5,
+            "No Organs Drop": 1.0
+        },
+        {
+            "Name": "Velocity Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 220,
+            "Costs Durability": 1,
+            "Bullet Speed": 0.3
+        },
+        {
+            "Name": "Micro Wing Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 1,
+            "Bullet Speed": 0.8,
+            "Consume Extra Ammo Chance": 0.2
+        },
+        {
+            "Name": "Mosquito Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Ammo Consume Chance": -0.7,
+            "Damage%": -0.3,
+            "Bullet Speed": -0.3
+        },
+        {
+            "Name": "Slow Punch Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Damage%": 0.5,
+            "Bullet Speed": -0.5
+        },
+        {
+            "Name": "Speed Trade Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 400,
+            "Costs Durability": 1,
+            "Bullet Speed": -0.3,
+            "Reload Speed": 0.3
+        },
+        {
+            "Name": "Bowl Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Spread": -0.5,
+            "Bullet Speed": -0.2
+        },
+        {
+            "Name": "Kinetic Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 350,
+            "Costs Durability": 1,
+            "Bullet Speed": 0.8,
+            "Bullet Drop": 20.0
+        },
+        {
+            "Name": "Arkanoid Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1200,
+            "Costs Durability": 1,
+            "Bullet Bounces": 13.0,
+            "Bullet Speed": -0.8
+        },
+        {
+            "Name": "Late Boom Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 150,
+            "Costs Durability": 1,
+            "Damage": 30.0,
+            "Bullet Speed": -0.3
+        },
+        {
+            "Name": "Assassin Dart Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 250,
+            "Costs Durability": 1,
+            "Bullet Speed": 0.7,
+            "Move Speed": -0.25
+        },
+        {
+            "Name": "Whim Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 450,
+            "Costs Durability": 1,
+            "Bullet Speed": 0.5,
+            "Loot Chance Multiplier": -0.25
+        },
+        {
+            "Name": "Enchantment_BoltOil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 370,
+            "Costs Durability": 1,
+            "Bullet Speed": 0.5,
+            "Damage": -30.0
+        },
+        {
+            "Name": "Dart Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 230,
+            "Costs Durability": 1,
+            "Bullet Speed": 0.5,
+            "Jump Power": -0.25
+        },
+        {
+            "Name": "Delayed Hyper Tube Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 400,
+            "Costs Durability": 1,
+            "Bullet Speed": 1.0,
+            "RPM": -0.5
+        },
+        {
+            "Name": "Relax Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Recoil": -0.5,
+            "Bullet Speed": -0.2
+        },
+        {
+            "Name": "Rigor Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 125,
+            "Costs Durability": 1,
+            "Bullet Penetration": 1.0,
+            "Bullet Speed": -0.5
+        },
+        {
+            "Name": "Extra Powder Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 400,
+            "Costs Durability": 1,
+            "Bullet Speed": 0.5,
+            "Reload Speed": -0.25
+        },
+        {
+            "Name": "Blurt Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 1,
+            "RPM": 0.3,
+            "Bullet Speed": -0.2
+        },
+        {
+            "Name": "Matrix Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 1,
+            "Bullet Speed": -0.9,
+            "Projectile Amount": 3.0,
+            "Damage%": -0.3,
+            "Drag Mult": 40.0,
+            "Spread": 4.0
+        },
+        {
+            "Name": "Hyper Lead Oil",
+            "Demo": 1,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Damage%": 0.4,
+            "Bullet Drop": 40.0,
+            "Bullet Speed": 1.0
+        },
+        {
+            "Name": "Big Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Bullet Drop": 20.0,
+            "Bullet Speed": -0.2,
+            "Damage": 30.0
+        },
+        {
+            "Name": "Instant Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Bullet Speed": 2.0,
+            "Disables Aiming": 1.0
+        },
+        {
+            "Name": "Enchantment_SoftBulletOil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 0,
+            "Max Durability": 0.25,
+            "Bullet Speed": -0.3
+        },
+        {
+            "Name": "Arrow Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 200,
+            "Costs Durability": 1,
+            "Bullet Speed": 0.8,
+            "Damage%": -0.2
+        },
+        {
+            "Name": "Fast Bet Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 450,
+            "Costs Durability": 1,
+            "Bullet Speed": 0.5,
+            "No Money Drops": 1.0
+        },
+        {
+            "Name": "Smart Bullet Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Crit Chance": 0.2,
+            "Bullet Speed": -0.6
+        },
+        {
+            "Name": "Fast Forward Oil",
+            "Demo": 0,
+            "Early Access": 0,
+            "Base Price": 1000,
+            "Costs Durability": 1,
+            "Bullet Speed": 2.0,
+            "Durability Per Shot": 0.0
+        },
+        {
+            "Name": "Diesel Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 225,
+            "Costs Durability": 1,
+            "Bullet Speed": 0.5,
+            "Recoil": 0.3
+        },
+        {
+            "Name": "Tight Barrel Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Bullet Speed": 0.7,
+            "Max Durability": -0.2
+        },
+        {
+            "Name": "Slow Mo Oil",
+            "Demo": 0,
+            "Early Access": 0,
+            "Base Price": 1000,
+            "Costs Durability": 1,
+            "Bullet Speed": -0.8
+        },
+        {
+            "Name": "Zooming Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 450,
+            "Costs Durability": 1,
+            "Bullet Speed": 0.8,
+            "Spread": 1.0
+        },
+        {
+            "Name": "Helium Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Ammo Consume Chance": -0.4,
+            "Bullet Speed": -0.4
+        },
+        {
+            "Name": "Great Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 450,
+            "Costs Durability": 1,
+            "Bullet Drop": 40.0,
+            "Bullet Speed": -0.2,
+            "Damage%": 0.4
+        }
+    ],
+    "No Organs Drop": [
+        {
+            "Name": "Turbulence Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 600,
+            "Costs Durability": 1,
+            "Bullet Speed": 0.5,
+            "No Organs Drop": 1.0
+        },
+        {
+            "Name": "Shredder Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Damage%": -0.2,
+            "Projectile Amount": 1.0,
+            "Spread": 1.0,
+            "No Organs Drop": 1.0
+        },
+        {
+            "Name": "Sensible Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 0,
+            "Max Durability": 0.2,
+            "No Organs Drop": 1.0
+        },
+        {
+            "Name": "Too Much Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 900,
+            "Costs Durability": 1,
+            "Bullet Penetration": 1.0,
+            "No Organs Drop": 1.0
+        },
+        {
+            "Name": "Vegan Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Spread": -0.2,
+            "No Organs Drop": 1.0
+        },
+        {
+            "Name": "Scramble Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 600,
+            "Costs Durability": 1,
+            "Bullet Bounces": 1.0,
+            "No Organs Drop": 1.0
+        },
+        {
+            "Name": "Expander Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Damage": 20.0,
+            "No Organs Drop": 1.0
+        },
+        {
+            "Name": "Task Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 900,
+            "Costs Durability": 1,
+            "No Organs Drop": 1.0,
+            "Reload Speed": 0.3
+        },
+        {
+            "Name": "Perforate Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "RPM": 0.2,
+            "No Organs Drop": 1.0
+        },
+        {
+            "Name": "Dum Dum Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1000,
+            "Costs Durability": 1,
+            "Damage%": 0.15,
+            "No Organs Drop": 1.0
+        },
+        {
+            "Name": "Smash Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 600,
+            "Costs Durability": 1,
+            "Bullet Size": 3.0,
+            "No Organs Drop": 1.0
+        },
+        {
+            "Name": "Vegetable Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Recoil": -0.2,
+            "No Organs Drop": 1.0
+        },
+        {
+            "Name": "Keep Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Ammo Consume Chance": -0.2,
+            "No Organs Drop": 1.0
+        },
+        {
+            "Name": "Puncture Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Crit Chance": 0.15,
+            "No Organs Drop": 1.0
+        }
+    ],
+    "RPM": [
+        {
+            "Name": "Double Fire Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "RPM": 0.5,
+            "Consume Extra Ammo Chance": 0.25
+        },
+        {
+            "Name": "Spitter Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "RPM": 0.35,
+            "Spread": 1.0
+        },
+        {
+            "Name": "Do-over Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Ammo Consume Chance": -0.2,
+            "RPM": -0.25
+        },
+        {
+            "Name": "Waster Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "RPM": 0.2,
+            "No Money Drops": 1.0
+        },
+        {
+            "Name": "Zero Fucks Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "RPM": 0.5,
+            "Loot Chance Multiplier": -1.0
+        },
+        {
+            "Name": "Sender Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Damage": 25.0,
+            "RPM": -0.25
+        },
+        {
+            "Name": "Attack Speed Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "RPM": 0.25
+        },
+        {
+            "Name": "Delayed Hyper Tube Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 400,
+            "Costs Durability": 1,
+            "Bullet Speed": 1.0,
+            "RPM": -0.5
+        },
+        {
+            "Name": "Double Lock Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Reload Speed": 0.35,
+            "RPM": -0.25
+        },
+        {
+            "Name": "No Look Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "RPM": 0.3,
+            "Disables Aiming": 1.0
+        },
+        {
+            "Name": "Blurt Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 1,
+            "RPM": 0.3,
+            "Bullet Speed": -0.2
+        },
+        {
+            "Name": "Lightweight Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "RPM": 0.5,
+            "Recoil": 0.5
+        },
+        {
+            "Name": "Perforate Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "RPM": 0.2,
+            "No Organs Drop": 1.0
+        },
+        {
+            "Name": "Careful Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Spread": -0.3,
+            "RPM": -0.25
+        },
+        {
+            "Name": "Launcher Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Damage%": 0.2,
+            "RPM": -0.25
+        },
+        {
+            "Name": "Needleeye Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 200,
+            "Costs Durability": 1,
+            "Bullet Penetration": 1.0,
+            "RPM": -0.25
+        },
+        {
+            "Name": "Sherlock Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Bullet Bounces": 4.0,
+            "RPM": -0.5
+        },
+        {
+            "Name": "Robust Mechanics Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 0,
+            "Max Durability": 0.35,
+            "RPM": -0.25
+        },
+        {
+            "Name": "BB Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "RPM": 0.2,
+            "Bullet Size": -0.7
+        },
+        {
+            "Name": "Stationary Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1200,
+            "Costs Durability": 1,
+            "RPM": 0.8,
+            "Move Speed": -0.9,
+            "Jump Power": -0.9,
+            "Recoil": -0.85
+        },
+        {
+            "Name": "Fragile System Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "RPM": 0.5,
+            "Max Durability": -0.3
+        },
+        {
+            "Name": "Tight Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 400,
+            "Costs Durability": 1,
+            "Bullet Size": 1.0,
+            "RPM": -0.1
+        },
+        {
+            "Name": "Rapid Internals Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 400,
+            "Costs Durability": 1,
+            "RPM": 0.35,
+            "Damage%": -0.2
+        },
+        {
+            "Name": "Rookie Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 1,
+            "RPM": 0.5,
+            "Reload Speed": -0.75
+        },
+        {
+            "Name": "Shower Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "RPM": 0.4,
+            "Bullet Drop": 10.0
+        },
+        {
+            "Name": "Ready Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Recoil": -0.45,
+            "RPM": -0.4
+        },
+        {
+            "Name": "Machine Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1000,
+            "Costs Durability": 1,
+            "RPM": 0.5,
+            "Move Speed": -0.5
+        }
+    ],
+    "Consume Extra Ammo Chance": [
+        {
+            "Name": "Double Fire Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "RPM": 0.5,
+            "Consume Extra Ammo Chance": 0.25
+        },
+        {
+            "Name": "Clump Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 175,
+            "Costs Durability": 1,
+            "Bullet Size": 1.0,
+            "Consume Extra Ammo Chance": 0.3
+        },
+        {
+            "Name": "Micro Wing Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 1,
+            "Bullet Speed": 0.8,
+            "Consume Extra Ammo Chance": 0.2
+        },
+        {
+            "Name": "Modern Technology Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 600,
+            "Costs Durability": 1,
+            "Recoil": -0.25,
+            "Consume Extra Ammo Chance": 0.1
+        },
+        {
+            "Name": "Rigid System Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 0,
+            "Max Durability": 0.4,
+            "Consume Extra Ammo Chance": 0.2
+        },
+        {
+            "Name": "Lost In Focus Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Spread": -0.6,
+            "Consume Extra Ammo Chance": 0.3
+        },
+        {
+            "Name": "Rush Job Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Reload Speed": 0.5,
+            "Consume Extra Ammo Chance": 0.3
+        },
+        {
+            "Name": "Farsighted Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 200,
+            "Costs Durability": 1,
+            "Bullet Penetration": 2.0,
+            "Consume Extra Ammo Chance": 0.3
+        },
+        {
+            "Name": "Slotmachine Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Crit Chance": 0.25,
+            "Consume Extra Ammo Chance": 0.2
+        },
+        {
+            "Name": "Overclock Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1000,
+            "Costs Durability": 1,
+            "Damage%": 0.4,
+            "Consume Extra Ammo Chance": 0.3
+        },
+        {
+            "Name": "Synchronicity Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Bullet Bounces": 3.0,
+            "Consume Extra Ammo Chance": 0.3
+        },
+        {
+            "Name": "Multichamber Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1200,
+            "Costs Durability": 1,
+            "Consume Extra Ammo Chance": 1.0,
+            "Projectile Amount": 1.0
+        },
+        {
+            "Name": "Discharge Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Damage": 30.0,
+            "Consume Extra Ammo Chance": 0.3
+        }
+    ],
+    "Damage": [
+        {
+            "Name": "Disposable Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Damage": 50.0,
+            "Max Durability": -0.75
+        },
+        {
+            "Name": "Judgement Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Damage": 25.0,
+            "Move Speed": -0.15
+        },
+        {
+            "Name": "Rebound Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Bullet Bounces": 2.0,
+            "Damage": -15.0
+        },
+        {
+            "Name": "Brute Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Damage": 30.0,
+            "Spread": 0.7
+        },
+        {
+            "Name": "Frugal Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Damage": 25.0,
+            "Loot Chance Multiplier": -0.5
+        },
+        {
+            "Name": "Late Boom Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 150,
+            "Costs Durability": 1,
+            "Damage": 30.0,
+            "Bullet Speed": -0.3
+        },
+        {
+            "Name": "Airsoft Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Damage": -15.0,
+            "Drag Mult": 7.0,
+            "Reload Speed": 0.4
+        },
+        {
+            "Name": "Sender Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Damage": 25.0,
+            "RPM": -0.25
+        },
+        {
+            "Name": "Considerate Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 1,
+            "Bullet Penetration": 1.0,
+            "Damage": -25.0
+        },
+        {
+            "Name": "Kicker Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Damage": 20.0,
+            "Recoil": 0.5
+        },
+        {
+            "Name": "Fidget Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 450,
+            "Costs Durability": 1,
+            "Damage": 20.0,
+            "Reload Speed": -0.25
+        },
+        {
+            "Name": "Solid Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 350,
+            "Costs Durability": 1,
+            "Damage": 40.0,
+            "Bullet Drop": 10.0,
+            "Bullet Size": 0.5
+        },
+        {
+            "Name": "Enchantment_BoltOil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 370,
+            "Costs Durability": 1,
+            "Bullet Speed": 0.5,
+            "Damage": -30.0
+        },
+        {
+            "Name": "Expander Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Damage": 20.0,
+            "No Organs Drop": 1.0
+        },
+        {
+            "Name": "Big Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Bullet Drop": 20.0,
+            "Bullet Speed": -0.2,
+            "Damage": 30.0
+        },
+        {
+            "Name": "Stability Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Recoil": -0.35,
+            "Damage": -15.0
+        },
+        {
+            "Name": "Potshot Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Damage": 35.0,
+            "Disables Aiming": 1.0
+        },
+        {
+            "Name": "Gemini Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Damage": -30.0,
+            "Projectile Amount": 1.0
+        },
+        {
+            "Name": "Seated Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Damage": 20.0,
+            "Jump Power": -0.1
+        },
+        {
+            "Name": "Hustler Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Crit Chance": 0.25,
+            "Damage": -30.0
+        },
+        {
+            "Name": "Add Damage Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Damage": 15.0
+        },
+        {
+            "Name": "Discharge Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Damage": 30.0,
+            "Consume Extra Ammo Chance": 0.3
+        },
+        {
+            "Name": "Dynamic Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 450,
+            "Costs Durability": 1,
+            "Damage": -30.0,
+            "Reload Speed": 0.4
+        },
+        {
+            "Name": "Ascetic Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 350,
+            "Costs Durability": 1,
+            "Damage": 30.0,
+            "No Money Drops": 1.0
+        },
+        {
+            "Name": "Rubber Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 0,
+            "Max Durability": 0.25,
+            "Damage": -10.0
+        }
+    ],
+    "Crit Chance": [
+        {
+            "Name": "Gambler Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Crit Chance": 0.2,
+            "Damage%": -0.2
+        },
+        {
+            "Name": "Blindfold Oil",
+            "Demo": 1,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Crit Chance": 0.15,
+            "Spread": 2.0
+        },
+        {
+            "Name": "Manifestation Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1100,
+            "Costs Durability": 1,
+            "Crit Chance": 0.25,
+            "Reload Speed": -0.5
+        },
+        {
+            "Name": "Hunter Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1100,
+            "Costs Durability": 1,
+            "Crit Chance": 0.15,
+            "Move Speed": -0.3
+        },
+        {
+            "Name": "Low Roller Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Crit Chance": 0.1,
+            "No Money Drops": 1.0
+        },
+        {
+            "Name": "No Need Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1000,
+            "Costs Durability": 1,
+            "Crit Chance": 0.15,
+            "Loot Chance Multiplier": -0.25
+        },
+        {
+            "Name": "Critical Oil",
+            "Demo": 1,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Crit Chance": 0.15
+        },
+        {
+            "Name": "Artery Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 1,
+            "Crit Chance": 0.1,
+            "Bullet Size": -0.5
+        },
+        {
+            "Name": "Slotmachine Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Crit Chance": 0.25,
+            "Consume Extra Ammo Chance": 0.2
+        },
+        {
+            "Name": "Axe Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 1,
+            "Crit Chance": 0.25,
+            "Bullet Drop": 10.0
+        },
+        {
+            "Name": "Aimless Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Crit Chance": 0.3,
+            "Disables Aiming": 1.0
+        },
+        {
+            "Name": "Smart Bullet Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Crit Chance": 0.2,
+            "Bullet Speed": -0.6
+        },
+        {
+            "Name": "Hustler Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Crit Chance": 0.25,
+            "Damage": -30.0
+        },
+        {
+            "Name": "Out of the Box Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 400,
+            "Costs Durability": 1,
+            "Crit Chance": 0.2,
+            "Max Durability": -0.3
+        },
+        {
+            "Name": "Happy Accident Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Crit Chance": 0.15,
+            "Recoil": 0.4
+        },
+        {
+            "Name": "Confidence Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 750,
+            "Costs Durability": 1,
+            "Crit Chance": 0.2,
+            "Reload Speed": -0.25
+        },
+        {
+            "Name": "Puncture Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Crit Chance": 0.15,
+            "No Organs Drop": 1.0
+        }
+    ],
+    "Ammo Consume Chance": [
+        {
+            "Name": "Last Drop Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 250,
+            "Costs Durability": 1,
+            "Ammo Consume Chance": -0.3,
+            "Max Durability": -0.25
+        },
+        {
+            "Name": "Whos Counting Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Ammo Consume Chance": -0.25,
+            "Disables Aiming": 1.0
+        },
+        {
+            "Name": "Food Stamp Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 1,
+            "No Money Drops": 1.0,
+            "Ammo Consume Chance": -0.2
+        },
+        {
+            "Name": "Do-over Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Ammo Consume Chance": -0.2,
+            "RPM": -0.25
+        },
+        {
+            "Name": "Tetris Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1200,
+            "Costs Durability": 1,
+            "Ammo Consume Chance": -0.3,
+            "Reload Speed": -0.6
+        },
+        {
+            "Name": "Recycle Oil",
+            "Demo": 1,
+            "Early Access": 1,
+            "Base Price": 1000,
+            "Costs Durability": 1,
+            "Ammo Consume Chance": -0.15
+        },
+        {
+            "Name": "Mosquito Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Ammo Consume Chance": -0.7,
+            "Damage%": -0.3,
+            "Bullet Speed": -0.3
+        },
+        {
+            "Name": "Saviour Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 900,
+            "Costs Durability": 1,
+            "Ammo Consume Chance": -0.4,
+            "Loot Chance Multiplier": -1.0
+        },
+        {
+            "Name": "Carefree Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Ammo Consume Chance": -0.2,
+            "Spread": 1.0
+        },
+        {
+            "Name": "Plop Back Oil",
+            "Demo": 1,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Recoil": 1.25,
+            "Ammo Consume Chance": -0.2
+        },
+        {
+            "Name": "Bulk Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Ammo Consume Chance": -0.4,
+            "Bullet Drop": 10.0
+        },
+        {
+            "Name": "Heavy Pockets  Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Jump Power": -1.0,
+            "Ammo Consume Chance": -0.2
+        },
+        {
+            "Name": "Walk Easy Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 250,
+            "Costs Durability": 1,
+            "Ammo Consume Chance": -0.15,
+            "Move Speed": -0.1
+        },
+        {
+            "Name": "Cheap Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Damage%": -0.2,
+            "Ammo Consume Chance": -0.3
+        },
+        {
+            "Name": "Helium Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Ammo Consume Chance": -0.4,
+            "Bullet Speed": -0.4
+        },
+        {
+            "Name": "Keep Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Ammo Consume Chance": -0.2,
+            "No Organs Drop": 1.0
+        }
+    ],
+    "Reload Speed": [
+        {
+            "Name": "Cycle Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Spread": 1.0,
+            "Reload Speed": 0.25
+        },
+        {
+            "Name": "Manifestation Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1100,
+            "Costs Durability": 1,
+            "Crit Chance": 0.25,
+            "Reload Speed": -0.5
+        },
+        {
+            "Name": "Tetris Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1200,
+            "Costs Durability": 1,
+            "Ammo Consume Chance": -0.3,
+            "Reload Speed": -0.6
+        },
+        {
+            "Name": "Lazy Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Bullet Bounces": 1.0,
+            "Reload Speed": -0.1
+        },
+        {
+            "Name": "Main Discipline Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Loot Chance Multiplier": -0.5,
+            "Reload Speed": 0.3
+        },
+        {
+            "Name": "Speed Trade Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 400,
+            "Costs Durability": 1,
+            "Bullet Speed": -0.3,
+            "Reload Speed": 0.3
+        },
+        {
+            "Name": "Compo Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1100,
+            "Costs Durability": 1,
+            "Reload Speed": 0.8,
+            "Move Speed": -0.6,
+            "Spread": -0.1,
+            "Recoil": -0.1
+        },
+        {
+            "Name": "Shellman Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Spread": -0.3,
+            "Reload Speed": -0.25
+        },
+        {
+            "Name": "Airsoft Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Damage": -15.0,
+            "Drag Mult": 7.0,
+            "Reload Speed": 0.4
+        },
+        {
+            "Name": "Rush Job Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Reload Speed": 0.5,
+            "Consume Extra Ammo Chance": 0.3
+        },
+        {
+            "Name": "Purse Gun Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1200,
+            "Costs Durability": 1,
+            "Recoil": -0.35,
+            "Reload Speed": -0.3
+        },
+        {
+            "Name": "Shaved Clip Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 550,
+            "Costs Durability": 1,
+            "Reload Speed": 0.5,
+            "Max Durability": -0.3
+        },
+        {
+            "Name": "Parallel Mag Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Projectile Amount": 1.0,
+            "Reload Speed": -0.5
+        },
+        {
+            "Name": "Fidget Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 450,
+            "Costs Durability": 1,
+            "Damage": 20.0,
+            "Reload Speed": -0.25
+        },
+        {
+            "Name": "Double Lock Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Reload Speed": 0.35,
+            "RPM": -0.25
+        },
+        {
+            "Name": "Tech Support Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1100,
+            "Costs Durability": 1,
+            "Jump Power": -0.7,
+            "Reload Speed": 0.5
+        },
+        {
+            "Name": "Extra Powder Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 400,
+            "Costs Durability": 1,
+            "Bullet Speed": 0.5,
+            "Reload Speed": -0.25
+        },
+        {
+            "Name": "Untechnical Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 1,
+            "Bullet Penetration": 1.0,
+            "Reload Speed": -0.25
+        },
+        {
+            "Name": "Task Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 900,
+            "Costs Durability": 1,
+            "No Organs Drop": 1.0,
+            "Reload Speed": 0.3
+        },
+        {
+            "Name": "Tactical Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Damage%": -0.2,
+            "Reload Speed": 0.6
+        },
+        {
+            "Name": "Fidget Lord Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1000,
+            "Costs Durability": 1,
+            "Move Speed": -0.6,
+            "Reload Speed": 0.7
+        },
+        {
+            "Name": "Reload Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1100,
+            "Costs Durability": 1,
+            "Reload Speed": 0.25
+        },
+        {
+            "Name": "Nerf Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Damage%": -0.1,
+            "Reload Speed": 0.5,
+            "Bullet Drop": 5.0
+        },
+        {
+            "Name": "Gunslinger Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 900,
+            "Costs Durability": 1,
+            "Disables Aiming": 1.0,
+            "Reload Speed": 0.4
+        },
+        {
+            "Name": "Dynamic Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 450,
+            "Costs Durability": 1,
+            "Damage": -30.0,
+            "Reload Speed": 0.4
+        },
+        {
+            "Name": "Gargantuan Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 400,
+            "Costs Durability": 1,
+            "Bullet Size": 2.0,
+            "Reload Speed": -0.5
+        },
+        {
+            "Name": "Rookie Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 1,
+            "RPM": 0.5,
+            "Reload Speed": -0.75
+        },
+        {
+            "Name": "Main Focus Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "No Money Drops": 1.0,
+            "Reload Speed": 0.2
+        },
+        {
+            "Name": "Confidence Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 750,
+            "Costs Durability": 1,
+            "Crit Chance": 0.2,
+            "Reload Speed": -0.25
+        },
+        {
+            "Name": "Complicated Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Damage%": 0.3,
+            "Reload Speed": -0.25
+        },
+        {
+            "Name": "Stiffy Fit Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 900,
+            "Costs Durability": 0,
+            "Max Durability": 0.45,
+            "Reload Speed": -0.5
+        },
+        {
+            "Name": "Action Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Recoil": 1.0,
+            "Reload Speed": 0.4
+        }
+    ],
+    "Recoil": [
+        {
+            "Name": "Puncher Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1200,
+            "Costs Durability": 1,
+            "Damage%": 0.3,
+            "Recoil": 1.5
+        },
+        {
+            "Name": "Easy Plop Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 1,
+            "Recoil": -0.65,
+            "Bullet Drop": 5.0
+        },
+        {
+            "Name": "Over Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 400,
+            "Costs Durability": 1,
+            "Bullet Size": 1.0,
+            "Recoil": 0.3
+        },
+        {
+            "Name": "Elephant Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Projectile Amount": 2.0,
+            "Damage%": -0.25,
+            "Recoil": 0.1,
+            "Move Speed": -0.5,
+            "Bullet Drop": 10.0,
+            "Bullet Size": 200.0,
+            "Spread": 2.0
+        },
+        {
+            "Name": "Modern Technology Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 600,
+            "Costs Durability": 1,
+            "Recoil": -0.25,
+            "Consume Extra Ammo Chance": 0.1
+        },
+        {
+            "Name": "Compo Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1100,
+            "Costs Durability": 1,
+            "Reload Speed": 0.8,
+            "Move Speed": -0.6,
+            "Spread": -0.1,
+            "Recoil": -0.1
+        },
+        {
+            "Name": "Less Recoil Oil",
+            "Demo": 1,
+            "Early Access": 1,
+            "Base Price": 1200,
+            "Costs Durability": 1,
+            "Recoil": -0.25
+        },
+        {
+            "Name": "Cartoon Oil",
+            "Demo": 1,
+            "Early Access": 1,
+            "Base Price": 1000,
+            "Costs Durability": 1,
+            "Bullet Bounces": 4.0,
+            "Recoil": 2.0
+        },
+        {
+            "Name": "Peashooter Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1000,
+            "Costs Durability": 1,
+            "Recoil": -0.2,
+            "Bullet Size": -1.0
+        },
+        {
+            "Name": "Plop Back Oil",
+            "Demo": 1,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Recoil": 1.25,
+            "Ammo Consume Chance": -0.2
+        },
+        {
+            "Name": "Contained Force Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Recoil": -0.45,
+            "Max Durability": -0.2
+        },
+        {
+            "Name": "Purse Gun Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1200,
+            "Costs Durability": 1,
+            "Recoil": -0.35,
+            "Reload Speed": -0.3
+        },
+        {
+            "Name": "Release Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1100,
+            "Costs Durability": 0,
+            "Max Durability": 0.4,
+            "Recoil": 1.5
+        },
+        {
+            "Name": "Kicker Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Damage": 20.0,
+            "Recoil": 0.5
+        },
+        {
+            "Name": "Easy Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 900,
+            "Costs Durability": 1,
+            "Recoil": -0.2,
+            "No Money Drops": 1.0
+        },
+        {
+            "Name": "Safety Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Recoil": -0.35,
+            "Damage%": -0.1
+        },
+        {
+            "Name": "Stable Hip Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1100,
+            "Costs Durability": 1,
+            "Recoil": -0.62,
+            "Disables Aiming": 1.0
+        },
+        {
+            "Name": "Relax Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Recoil": -0.5,
+            "Bullet Speed": -0.2
+        },
+        {
+            "Name": "Lightweight Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "RPM": 0.5,
+            "Recoil": 0.5
+        },
+        {
+            "Name": "Dead Center Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Spread": -2.0,
+            "Recoil": 1.0
+        },
+        {
+            "Name": "Flow Funnel Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Recoil": -0.65,
+            "Spread": 3.0
+        },
+        {
+            "Name": "Collateral Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 350,
+            "Costs Durability": 1,
+            "Bullet Penetration": 2.0,
+            "Recoil": 1.0
+        },
+        {
+            "Name": "Braced Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Recoil": -0.2,
+            "Jump Power": -0.5
+        },
+        {
+            "Name": "Casual Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1000,
+            "Costs Durability": 1,
+            "Recoil": -0.3,
+            "Loot Chance Multiplier": -0.2
+        },
+        {
+            "Name": "Stability Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Recoil": -0.35,
+            "Damage": -15.0
+        },
+        {
+            "Name": "Stationary Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1200,
+            "Costs Durability": 1,
+            "RPM": 0.8,
+            "Move Speed": -0.9,
+            "Jump Power": -0.9,
+            "Recoil": -0.85
+        },
+        {
+            "Name": "Boomstick Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Damage%": -0.25,
+            "Projectile Amount": 2.0,
+            "Recoil": 2.0,
+            "Disables Aiming": 1.0,
+            "Spread": 0.7
+        },
+        {
+            "Name": "Test oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 400,
+            "Costs Durability": 1,
+            "Recoil": 4.0
+        },
+        {
+            "Name": "Vegetable Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Recoil": -0.2,
+            "No Organs Drop": 1.0
+        },
+        {
+            "Name": "Diesel Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 225,
+            "Costs Durability": 1,
+            "Bullet Speed": 0.5,
+            "Recoil": 0.3
+        },
+        {
+            "Name": "Tension Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1100,
+            "Costs Durability": 1,
+            "Recoil": -0.35,
+            "Move Speed": -0.15
+        },
+        {
+            "Name": "Careless Splitter Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Damage%": -0.25,
+            "Projectile Amount": 3.0,
+            "Recoil": 2.0,
+            "Spread": 2.0,
+            "Max Durability": -0.75
+        },
+        {
+            "Name": "Happy Accident Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Crit Chance": 0.15,
+            "Recoil": 0.4
+        },
+        {
+            "Name": "Ready Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Recoil": -0.45,
+            "RPM": -0.4
+        },
+        {
+            "Name": "Action Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Recoil": 1.0,
+            "Reload Speed": 0.4
+        }
+    ],
+    "Costs Durability": [
+        {
+            "Name": "Sensible Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 0,
+            "Max Durability": 0.2,
+            "No Organs Drop": 1.0
+        },
+        {
+            "Name": "Trusty Old Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 750,
+            "Costs Durability": 0,
+            "Max Durability": 0.2,
+            "No Money Drops": 1.0
+        },
+        {
+            "Name": "Seated Fit Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 0,
+            "Max Durability": 0.7,
+            "Bullet Drop": 10.0
+        },
+        {
+            "Name": "Rigid System Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 0,
+            "Max Durability": 0.4,
+            "Consume Extra Ammo Chance": 0.2
+        },
+        {
+            "Name": "Release Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1100,
+            "Costs Durability": 0,
+            "Max Durability": 0.4,
+            "Recoil": 1.5
+        },
+        {
+            "Name": "High Grade Oil",
+            "Demo": 1,
+            "Early Access": 1,
+            "Base Price": 1200,
+            "Costs Durability": 0,
+            "Max Durability": 0.25
+        },
+        {
+            "Name": "Hefty Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1000,
+            "Costs Durability": 0,
+            "Max Durability": 0.3,
+            "Move Speed": -0.25
+        },
+        {
+            "Name": "Detune Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 0,
+            "Max Durability": 0.5,
+            "Damage%": -0.25
+        },
+        {
+            "Name": "Robust Mechanics Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 0,
+            "Max Durability": 0.35,
+            "RPM": -0.25
+        },
+        {
+            "Name": "Enchantment_SoftBulletOil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 0,
+            "Max Durability": 0.25,
+            "Bullet Speed": -0.3
+        },
+        {
+            "Name": "Dense Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 0,
+            "Max Durability": 0.2,
+            "Jump Power": -0.25
+        },
+        {
+            "Name": "Slippy Coating Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1200,
+            "Costs Durability": 0,
+            "Max Durability": 0.3,
+            "Spread": 1.0
+        },
+        {
+            "Name": "Inherited Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1500,
+            "Costs Durability": 0,
+            "Max Durability": 0.5,
+            "Loot Chance Multiplier": -1.0
+        },
+        {
+            "Name": "Stiffy Fit Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 900,
+            "Costs Durability": 0,
+            "Max Durability": 0.45,
+            "Reload Speed": -0.5
+        },
+        {
+            "Name": "Gentle Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 0,
+            "Max Durability": 0.1,
+            "Bullet Size": -0.3
+        },
+        {
+            "Name": "Rubber Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 0,
+            "Max Durability": 0.25,
+            "Damage": -10.0
+        }
+    ],
+    "Disables Aiming": [
+        {
+            "Name": "Whos Counting Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Ammo Consume Chance": -0.25,
+            "Disables Aiming": 1.0
+        },
+        {
+            "Name": "Hip Marksman Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Spread": -0.3,
+            "Disables Aiming": 1.0
+        },
+        {
+            "Name": "Hip Blaster Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Damage%": 0.2,
+            "Disables Aiming": 1.0
+        },
+        {
+            "Name": "Stable Hip Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1100,
+            "Costs Durability": 1,
+            "Recoil": -0.62,
+            "Disables Aiming": 1.0
+        },
+        {
+            "Name": "No Look Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "RPM": 0.3,
+            "Disables Aiming": 1.0
+        },
+        {
+            "Name": "Bystander Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Bullet Penetration": 1.0,
+            "Disables Aiming": 1.0
+        },
+        {
+            "Name": "Potato Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 400,
+            "Costs Durability": 1,
+            "Bullet Size": 2.0,
+            "Disables Aiming": 1.0
+        },
+        {
+            "Name": "Instant Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Bullet Speed": 2.0,
+            "Disables Aiming": 1.0
+        },
+        {
+            "Name": "Longshot Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1200,
+            "Costs Durability": 1,
+            "Bullet Bounces": 3.0,
+            "Disables Aiming": 1.0
+        },
+        {
+            "Name": "Gunslinger Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 900,
+            "Costs Durability": 1,
+            "Disables Aiming": 1.0,
+            "Reload Speed": 0.4
+        },
+        {
+            "Name": "Potshot Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Damage": 35.0,
+            "Disables Aiming": 1.0
+        },
+        {
+            "Name": "Aimless Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Crit Chance": 0.3,
+            "Disables Aiming": 1.0
+        },
+        {
+            "Name": "Boomstick Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Damage%": -0.25,
+            "Projectile Amount": 2.0,
+            "Recoil": 2.0,
+            "Disables Aiming": 1.0,
+            "Spread": 0.7
+        }
+    ],
+    "Bullet Size": [
+        {
+            "Name": "Chonk Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 200,
+            "Costs Durability": 1,
+            "Bullet Size": 1.0,
+            "Spread": 0.3
+        },
+        {
+            "Name": "Clump Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 175,
+            "Costs Durability": 1,
+            "Bullet Size": 1.0,
+            "Consume Extra Ammo Chance": 0.3
+        },
+        {
+            "Name": "Over Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 400,
+            "Costs Durability": 1,
+            "Bullet Size": 1.0,
+            "Recoil": 0.3
+        },
+        {
+            "Name": "Elephant Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Projectile Amount": 2.0,
+            "Damage%": -0.25,
+            "Recoil": 0.1,
+            "Move Speed": -0.5,
+            "Bullet Drop": 10.0,
+            "Bullet Size": 200.0,
+            "Spread": 2.0
+        },
+        {
+            "Name": "Flop Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 400,
+            "Costs Durability": 1,
+            "Bullet Size": 0.5,
+            "Jump Power": -0.1
+        },
+        {
+            "Name": "Peashooter Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1000,
+            "Costs Durability": 1,
+            "Recoil": -0.2,
+            "Bullet Size": -1.0
+        },
+        {
+            "Name": "Solid Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 350,
+            "Costs Durability": 1,
+            "Damage": 40.0,
+            "Bullet Drop": 10.0,
+            "Bullet Size": 0.5
+        },
+        {
+            "Name": "Flea Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Bullet Bounces": 2.0,
+            "Bullet Size": -50.0,
+            "Damage%": -0.5
+        },
+        {
+            "Name": "Chub Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 100,
+            "Costs Durability": 1,
+            "Bullet Size": 1.0,
+            "Damage%": -0.2
+        },
+        {
+            "Name": "Size Up Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Bullet Size": 1.0
+        },
+        {
+            "Name": "Artery Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 1,
+            "Crit Chance": 0.1,
+            "Bullet Size": -0.5
+        },
+        {
+            "Name": "Heavy Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Damage%": 0.6,
+            "Bullet Drop": 10.0,
+            "Bullet Size": 0.5
+        },
+        {
+            "Name": "Birth Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 100,
+            "Costs Durability": 1,
+            "Bullet Size": 3.0,
+            "Max Durability": -0.3
+        },
+        {
+            "Name": "Potato Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 400,
+            "Costs Durability": 1,
+            "Bullet Size": 2.0,
+            "Disables Aiming": 1.0
+        },
+        {
+            "Name": "Congestion Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 1,
+            "Bullet Size": 1.0,
+            "Loot Chance Multiplier": -0.5
+        },
+        {
+            "Name": "BB Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "RPM": 0.2,
+            "Bullet Size": -0.7
+        },
+        {
+            "Name": "Smash Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 600,
+            "Costs Durability": 1,
+            "Bullet Size": 3.0,
+            "No Organs Drop": 1.0
+        },
+        {
+            "Name": "Big Tax Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 220,
+            "Costs Durability": 1,
+            "Bullet Size": 1.0,
+            "No Money Drops": 1.0
+        },
+        {
+            "Name": "Tight Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 400,
+            "Costs Durability": 1,
+            "Bullet Size": 1.0,
+            "RPM": -0.1
+        },
+        {
+            "Name": "Division Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Damage%": -0.2,
+            "Projectile Amount": 1.0,
+            "Spread": 1.0,
+            "Bullet Size": -0.7
+        },
+        {
+            "Name": "Xanax Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Bullet Size": 2.0,
+            "Move Speed": -0.25
+        },
+        {
+            "Name": "Gargantuan Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 400,
+            "Costs Durability": 1,
+            "Bullet Size": 2.0,
+            "Reload Speed": -0.5
+        },
+        {
+            "Name": "Gentle Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 0,
+            "Max Durability": 0.1,
+            "Bullet Size": -0.3
+        }
+    ],
+    "No Money Drops": [
+        {
+            "Name": "Food Stamp Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 1,
+            "No Money Drops": 1.0,
+            "Ammo Consume Chance": -0.2
+        },
+        {
+            "Name": "Trusty Old Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 750,
+            "Costs Durability": 0,
+            "Max Durability": 0.2,
+            "No Money Drops": 1.0
+        },
+        {
+            "Name": "Bandit Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 600,
+            "Costs Durability": 1,
+            "Bullet Bounces": 1.0,
+            "No Money Drops": 1.0
+        },
+        {
+            "Name": "Waster Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "RPM": 0.2,
+            "No Money Drops": 1.0
+        },
+        {
+            "Name": "Low Roller Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Crit Chance": 0.1,
+            "No Money Drops": 1.0
+        },
+        {
+            "Name": "Easy Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 900,
+            "Costs Durability": 1,
+            "Recoil": -0.2,
+            "No Money Drops": 1.0
+        },
+        {
+            "Name": "Franciscan Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 450,
+            "Costs Durability": 1,
+            "Damage%": 0.15,
+            "No Money Drops": 1.0
+        },
+        {
+            "Name": "Stoic Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1100,
+            "Costs Durability": 1,
+            "Spread": -0.3,
+            "No Money Drops": 1.0
+        },
+        {
+            "Name": "Two Time Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1300,
+            "Costs Durability": 1,
+            "Damage%": -0.1,
+            "Projectile Amount": 2.0,
+            "No Money Drops": 1.0,
+            "Spread": 3.0
+        },
+        {
+            "Name": "Big Tax Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 220,
+            "Costs Durability": 1,
+            "Bullet Size": 1.0,
+            "No Money Drops": 1.0
+        },
+        {
+            "Name": "Fast Bet Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 450,
+            "Costs Durability": 1,
+            "Bullet Speed": 0.5,
+            "No Money Drops": 1.0
+        },
+        {
+            "Name": "Sect Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 600,
+            "Costs Durability": 1,
+            "Bullet Penetration": 1.0,
+            "No Money Drops": 1.0
+        },
+        {
+            "Name": "Main Focus Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "No Money Drops": 1.0,
+            "Reload Speed": 0.2
+        },
+        {
+            "Name": "Ascetic Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 350,
+            "Costs Durability": 1,
+            "Damage": 30.0,
+            "No Money Drops": 1.0
+        }
+    ],
+    "Bullet Drop": [
+        {
+            "Name": "Easy Plop Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 1,
+            "Recoil": -0.65,
+            "Bullet Drop": 5.0
+        },
+        {
+            "Name": "Elephant Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Projectile Amount": 2.0,
+            "Damage%": -0.25,
+            "Recoil": 0.1,
+            "Move Speed": -0.5,
+            "Bullet Drop": 10.0,
+            "Bullet Size": 200.0,
+            "Spread": 2.0
+        },
+        {
+            "Name": "Seated Fit Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 0,
+            "Max Durability": 0.7,
+            "Bullet Drop": 10.0
+        },
+        {
+            "Name": "Kinetic Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 350,
+            "Costs Durability": 1,
+            "Bullet Speed": 0.8,
+            "Bullet Drop": 20.0
+        },
+        {
+            "Name": "Bulk Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Ammo Consume Chance": -0.4,
+            "Bullet Drop": 10.0
+        },
+        {
+            "Name": "Solid Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 350,
+            "Costs Durability": 1,
+            "Damage": 40.0,
+            "Bullet Drop": 10.0,
+            "Bullet Size": 0.5
+        },
+        {
+            "Name": "Heavy Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Damage%": 0.6,
+            "Bullet Drop": 10.0,
+            "Bullet Size": 0.5
+        },
+        {
+            "Name": "Hyper Lead Oil",
+            "Demo": 1,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Damage%": 0.4,
+            "Bullet Drop": 40.0,
+            "Bullet Speed": 1.0
+        },
+        {
+            "Name": "Big Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Bullet Drop": 20.0,
+            "Bullet Speed": -0.2,
+            "Damage": 30.0
+        },
+        {
+            "Name": "Artillery Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Spread": -0.9,
+            "Bullet Drop": 10.0
+        },
+        {
+            "Name": "Axe Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 1,
+            "Crit Chance": 0.25,
+            "Bullet Drop": 10.0
+        },
+        {
+            "Name": "Nerf Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Damage%": -0.1,
+            "Reload Speed": 0.5,
+            "Bullet Drop": 5.0
+        },
+        {
+            "Name": "Hoop Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Bullet Bounces": 4.0,
+            "Bullet Drop": 10.0
+        },
+        {
+            "Name": "Boulder Oil",
+            "Demo": 1,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Damage%": 0.2,
+            "Bullet Drop": 10.0,
+            "Bullet Bounces": 1.0,
+            "Bullet Bounciness": 0.8
+        },
+        {
+            "Name": "Shower Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "RPM": 0.4,
+            "Bullet Drop": 10.0
+        },
+        {
+            "Name": "Heavy Lead Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 100,
+            "Costs Durability": 1,
+            "Bullet Penetration": 2.0,
+            "Bullet Drop": 20.0
+        },
+        {
+            "Name": "Bombard Oil",
+            "Demo": 1,
+            "Early Access": 1,
+            "Base Price": 600,
+            "Costs Durability": 1,
+            "Damage%": -0.1,
+            "Projectile Amount": 2.0,
+            "Bullet Drop": 10.0
+        },
+        {
+            "Name": "Great Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 450,
+            "Costs Durability": 1,
+            "Bullet Drop": 40.0,
+            "Bullet Speed": -0.2,
+            "Damage%": 0.4
+        }
+    ],
+    "Jump Power": [
+        {
+            "Name": "Slick Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1000,
+            "Costs Durability": 1,
+            "Spread": -0.3,
+            "Jump Power": -0.1
+        },
+        {
+            "Name": "Flop Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 400,
+            "Costs Durability": 1,
+            "Bullet Size": 0.5,
+            "Jump Power": -0.1
+        },
+        {
+            "Name": "Heavy Pockets  Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Jump Power": -1.0,
+            "Ammo Consume Chance": -0.2
+        },
+        {
+            "Name": "Dart Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 230,
+            "Costs Durability": 1,
+            "Bullet Speed": 0.5,
+            "Jump Power": -0.25
+        },
+        {
+            "Name": "Tech Support Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1100,
+            "Costs Durability": 1,
+            "Jump Power": -0.7,
+            "Reload Speed": 0.5
+        },
+        {
+            "Name": "Bad Planet Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Bullet Penetration": 1.0,
+            "Jump Power": -0.3
+        },
+        {
+            "Name": "Braced Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Recoil": -0.2,
+            "Jump Power": -0.5
+        },
+        {
+            "Name": "Stationary Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1200,
+            "Costs Durability": 1,
+            "RPM": 0.8,
+            "Move Speed": -0.9,
+            "Jump Power": -0.9,
+            "Recoil": -0.85
+        },
+        {
+            "Name": "Grounded Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Damage%": 0.15,
+            "Jump Power": -0.1
+        },
+        {
+            "Name": "Dense Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 0,
+            "Max Durability": 0.2,
+            "Jump Power": -0.25
+        },
+        {
+            "Name": "Seated Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Damage": 20.0,
+            "Jump Power": -0.1
+        }
+    ],
+    "Bullet Bounces": [
+        {
+            "Name": "Skip Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Bullet Bounces": 1.0,
+            "Loot Chance Multiplier": -0.25
+        },
+        {
+            "Name": "Lazy Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Bullet Bounces": 1.0,
+            "Reload Speed": -0.1
+        },
+        {
+            "Name": "Bandit Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 600,
+            "Costs Durability": 1,
+            "Bullet Bounces": 1.0,
+            "No Money Drops": 1.0
+        },
+        {
+            "Name": "RicochetOil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Bullet Bounces": 3.0,
+            "Damage%": -0.1
+        },
+        {
+            "Name": "Rebound Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Bullet Bounces": 2.0,
+            "Damage": -15.0
+        },
+        {
+            "Name": "Pool Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1200,
+            "Costs Durability": 1,
+            "Bullet Bounces": 4.0,
+            "Move Speed": -0.3
+        },
+        {
+            "Name": "Arkanoid Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1200,
+            "Costs Durability": 1,
+            "Bullet Bounces": 13.0,
+            "Bullet Speed": -0.8
+        },
+        {
+            "Name": "Cartoon Oil",
+            "Demo": 1,
+            "Early Access": 1,
+            "Base Price": 1000,
+            "Costs Durability": 1,
+            "Bullet Bounces": 4.0,
+            "Recoil": 2.0
+        },
+        {
+            "Name": "Scramble Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 600,
+            "Costs Durability": 1,
+            "Bullet Bounces": 1.0,
+            "No Organs Drop": 1.0
+        },
+        {
+            "Name": "Wobble Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Bullet Bounces": 1.0,
+            "Spread": 1.0
+        },
+        {
+            "Name": "Flea Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Bullet Bounces": 2.0,
+            "Bullet Size": -50.0,
+            "Damage%": -0.5
+        },
+        {
+            "Name": "Perfect Bounce Oil",
+            "Demo": 1,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Bullet Bounces": 1.0
+        },
+        {
+            "Name": "Sherlock Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Bullet Bounces": 4.0,
+            "RPM": -0.5
+        },
+        {
+            "Name": "Synchronicity Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Bullet Bounces": 3.0,
+            "Consume Extra Ammo Chance": 0.3
+        },
+        {
+            "Name": "Imperfect Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Bullet Bounces": 2.0,
+            "Max Durability": -0.15
+        },
+        {
+            "Name": "Longshot Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1200,
+            "Costs Durability": 1,
+            "Bullet Bounces": 3.0,
+            "Disables Aiming": 1.0
+        },
+        {
+            "Name": "Hoop Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Bullet Bounces": 4.0,
+            "Bullet Drop": 10.0
+        },
+        {
+            "Name": "Boulder Oil",
+            "Demo": 1,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Damage%": 0.2,
+            "Bullet Drop": 10.0,
+            "Bullet Bounces": 1.0,
+            "Bullet Bounciness": 0.8
+        }
+    ],
+    "Move Speed": [
+        {
+            "Name": "Hunter Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1100,
+            "Costs Durability": 1,
+            "Crit Chance": 0.15,
+            "Move Speed": -0.3
+        },
+        {
+            "Name": "Elephant Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Projectile Amount": 2.0,
+            "Damage%": -0.25,
+            "Recoil": 0.1,
+            "Move Speed": -0.5,
+            "Bullet Drop": 10.0,
+            "Bullet Size": 200.0,
+            "Spread": 2.0
+        },
+        {
+            "Name": "Judgement Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Damage": 25.0,
+            "Move Speed": -0.15
+        },
+        {
+            "Name": "Pool Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1200,
+            "Costs Durability": 1,
+            "Bullet Bounces": 4.0,
+            "Move Speed": -0.3
+        },
+        {
+            "Name": "Compo Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1100,
+            "Costs Durability": 1,
+            "Reload Speed": 0.8,
+            "Move Speed": -0.6,
+            "Spread": -0.1,
+            "Recoil": -0.1
+        },
+        {
+            "Name": "Assassin Dart Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 250,
+            "Costs Durability": 1,
+            "Bullet Speed": 0.7,
+            "Move Speed": -0.25
+        },
+        {
+            "Name": "Walk Easy Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 250,
+            "Costs Durability": 1,
+            "Ammo Consume Chance": -0.15,
+            "Move Speed": -0.1
+        },
+        {
+            "Name": "Hefty Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1000,
+            "Costs Durability": 0,
+            "Max Durability": 0.3,
+            "Move Speed": -0.25
+        },
+        {
+            "Name": "Jungian Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 600,
+            "Costs Durability": 1,
+            "Bullet Penetration": 1.0,
+            "Move Speed": -0.15
+        },
+        {
+            "Name": "Fidget Lord Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1000,
+            "Costs Durability": 1,
+            "Move Speed": -0.6,
+            "Reload Speed": 0.7
+        },
+        {
+            "Name": "Thorough Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 900,
+            "Costs Durability": 1,
+            "Spread": -0.35,
+            "Move Speed": -0.15
+        },
+        {
+            "Name": "Stationary Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1200,
+            "Costs Durability": 1,
+            "RPM": 0.8,
+            "Move Speed": -0.9,
+            "Jump Power": -0.9,
+            "Recoil": -0.85
+        },
+        {
+            "Name": "Xanax Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Bullet Size": 2.0,
+            "Move Speed": -0.25
+        },
+        {
+            "Name": "Tension Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1100,
+            "Costs Durability": 1,
+            "Recoil": -0.35,
+            "Move Speed": -0.15
+        },
+        {
+            "Name": "Terminator Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1000,
+            "Costs Durability": 1,
+            "Damage%": 0.25,
+            "Move Speed": -0.15
+        },
+        {
+            "Name": "Machine Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1000,
+            "Costs Durability": 1,
+            "RPM": 0.5,
+            "Move Speed": -0.5
+        }
+    ],
+    "Bullet Penetration": [
+        {
+            "Name": "Too Much Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 900,
+            "Costs Durability": 1,
+            "Bullet Penetration": 1.0,
+            "No Organs Drop": 1.0
+        },
+        {
+            "Name": "Considerate Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 1,
+            "Bullet Penetration": 1.0,
+            "Damage": -25.0
+        },
+        {
+            "Name": "Farsighted Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 200,
+            "Costs Durability": 1,
+            "Bullet Penetration": 2.0,
+            "Consume Extra Ammo Chance": 0.3
+        },
+        {
+            "Name": "Bystander Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Bullet Penetration": 1.0,
+            "Disables Aiming": 1.0
+        },
+        {
+            "Name": "Inconsiderate Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 250,
+            "Costs Durability": 1,
+            "Bullet Penetration": 1.0,
+            "Spread": 2.0
+        },
+        {
+            "Name": "Rigor Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 125,
+            "Costs Durability": 1,
+            "Bullet Penetration": 1.0,
+            "Bullet Speed": -0.5
+        },
+        {
+            "Name": "Untechnical Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 1,
+            "Bullet Penetration": 1.0,
+            "Reload Speed": -0.25
+        },
+        {
+            "Name": "Surgical Laser Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 400,
+            "Costs Durability": 1,
+            "Bullet Penetration": 3.0,
+            "Damage%": -0.3
+        },
+        {
+            "Name": "Jungian Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 600,
+            "Costs Durability": 1,
+            "Bullet Penetration": 1.0,
+            "Move Speed": -0.15
+        },
+        {
+            "Name": "Needleeye Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 200,
+            "Costs Durability": 1,
+            "Bullet Penetration": 1.0,
+            "RPM": -0.25
+        },
+        {
+            "Name": "Bad Planet Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 500,
+            "Costs Durability": 1,
+            "Bullet Penetration": 1.0,
+            "Jump Power": -0.3
+        },
+        {
+            "Name": "Collateral Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 350,
+            "Costs Durability": 1,
+            "Bullet Penetration": 2.0,
+            "Recoil": 1.0
+        },
+        {
+            "Name": "Vasectomy Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 700,
+            "Costs Durability": 1,
+            "Bullet Penetration": 1.0,
+            "Loot Chance Multiplier": -0.5
+        },
+        {
+            "Name": "Penetration Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 1000,
+            "Costs Durability": 1,
+            "Bullet Penetration": 1.0
+        },
+        {
+            "Name": "Sect Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 600,
+            "Costs Durability": 1,
+            "Bullet Penetration": 1.0,
+            "No Money Drops": 1.0
+        },
+        {
+            "Name": "Overdose Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 100,
+            "Costs Durability": 1,
+            "Bullet Penetration": 2.0,
+            "Max Durability": -0.25
+        },
+        {
+            "Name": "Heavy Lead Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 100,
+            "Costs Durability": 1,
+            "Bullet Penetration": 2.0,
+            "Bullet Drop": 20.0
+        }
+    ],
+    "Drag Mult": [
+        {
+            "Name": "Airsoft Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 650,
+            "Costs Durability": 1,
+            "Damage": -15.0,
+            "Drag Mult": 7.0,
+            "Reload Speed": 0.4
+        },
+        {
+            "Name": "Matrix Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 1,
+            "Bullet Speed": -0.9,
+            "Projectile Amount": 3.0,
+            "Damage%": -0.3,
+            "Drag Mult": 40.0,
+            "Spread": 4.0
+        }
+    ],
+    "Projectile Force Multiplier": [
+        {
+            "Name": "Force Oil",
+            "Demo": 0,
+            "Early Access": 0,
+            "Base Price": 1000,
+            "Costs Durability": 1,
+            "Projectile Force Multiplier": 2.0
+        }
+    ],
+    "Bullet Bounciness": [
+        {
+            "Name": "Boulder Oil",
+            "Demo": 1,
+            "Early Access": 1,
+            "Base Price": 800,
+            "Costs Durability": 1,
+            "Damage%": 0.2,
+            "Bullet Drop": 10.0,
+            "Bullet Bounces": 1.0,
+            "Bullet Bounciness": 0.8
+        }
+    ],
+    "MISC": [
+        {
+            "Name": "Eternal Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 4000,
+            "Costs Durability": 1
+        }
+    ],
+    "Accuracy When Moving": [
+        {
+            "Name": "Supressive Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 1,
+            "Accuracy When Moving": -2.0,
+            "Projectile Amount": 3.0,
+            "Damage%": -0.4
+        }
+    ],
+    "Enchantment Random Oil": [
+        {
+            "Name": "Unlabeled Oil",
+            "Demo": 0,
+            "Early Access": 1,
+            "Base Price": 300,
+            "Costs Durability": 1,
+            "Enchantment Random Oil": 1.0
+        }
+    ]
+}
